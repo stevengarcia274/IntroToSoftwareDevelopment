@@ -13,7 +13,9 @@ import argparser.IntHolder;
 
 
 
-/**
+/**Represents a WarpTester which tests WARP using different system and scheduler choices and visualizes
+ * the work load along with outputting different specified files to show if WARP is working correctly according to
+ * constraints
  * @author sgoddard
  *
  */
@@ -41,7 +43,10 @@ public class WarpTester {
 	private static Boolean verboseMode; // verbose mode flag (mainly for running in IDE)
 	private static String inputFile; // inputFile from which the graph workload is read
 	private static ScheduleChoices schedulerSelected; // Scheduler requested
-	
+	/** Visualizes workload according to type of file requested, system choices and scheduler choices
+	 * along with outputting other requested files to show data about the WARP program
+	 * @param args Command line options
+	 */
 	public static void main(String[] args) {
 		// parse command-line options and set WARP system parameters
 		setWarpParameters(args);
@@ -183,7 +188,7 @@ public class WarpTester {
 	    parser.addOption ("-i, --input %s #<InputFile> of graph flows (workload)", input);
 	    parser.addOption ("-o, --output %s #<OutputDIRECTORY> where output files will be placed", output);
 	    parser.addOption ("-v, --verbose %v #Echo input file name and parsed contents. Then for each flow instance: show maximum E2E latency and min/max communication cost for that instance of the flow", verbose);
-	    // parser.addOption ("-d, -debug, --debug %v #Debug mode: base directory = $HOME/Documents/WARP/", debug);
+	    
 		
     
 		// match the arguments ...
@@ -223,7 +228,6 @@ public class WarpTester {
 		allRequested = all.value; // all out files requested flag
 		latencyRequested = latency.value; // latency report requested flag
 		verboseMode = verbose.value; // verbose mode flag (mainly for running in IDE)
-		// debugMode = debug.value; // debug mode flag (mainly for running in IDE)
 		inputFile = input.value; // input file specified
 		if (schedulerSelected.value != null) {  // can't switch on a null value so check then switch
 			schedulerRequested = true;
@@ -257,7 +261,7 @@ public class WarpTester {
 		}
 	}
 	
-	private static void printWarpParameters ( ) {  // print all system configuration parameters
+	private static void printWarpParameters ( ) {
 		// Print out each of the system configuration values
 		System.out.println ("WARP system configuration values:");
 		System.out.println ("\tScheduler=" + schedulerSelected);
@@ -278,7 +282,6 @@ public class WarpTester {
 		}
 		System.out.println ("\toutputSubDirectory=" + outputSubDirectory);
 		System.out.println ("\tverbose flag=" + verboseMode);
-		// System.out.println ("\tdebug flag=" + debugMode);
 	}
 	
 }
