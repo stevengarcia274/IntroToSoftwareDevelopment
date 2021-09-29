@@ -2,7 +2,7 @@ package edu.uiowa.cs.warp;
 
 import java.util.ArrayList;
 
-/**
+/**Represents a Flow which is a chain of nodes and edges that carries data between sensors, controllers and actuators
  * @author sgoddard
  *
  */
@@ -29,8 +29,10 @@ public class Flow extends SchedulableObject implements Comparable<Flow>{
     Node nodePredecessor;
     Edge edgePredecessor;
     
-    /*
-     * Constructor that sets name, priority, and index
+    /**Constructor that initializes a flow and sets the name, priority, and index according to given parameters
+     * @param name Flow's name
+     * @param priority Flow's system-wide priority
+     * @param index Flow's index
      */
     Flow (String name, Integer priority, Integer index){
     	super(name, priority, DEFAULT_PERIOD, DEFAULT_DEADLINE, DEFAULT_PHASE);
@@ -48,8 +50,7 @@ public class Flow extends SchedulableObject implements Comparable<Flow>{
         this.edgePredecessor = null;
     }
     
-    /*
-     * Constructor
+    /** Constructor for a Flow without parameters, initializes a Flow with default values
      */
     Flow () {
     	super();
@@ -103,6 +104,7 @@ public class Flow extends SchedulableObject implements Comparable<Flow>{
 
 	/**
 	 * Add and edge to the flow.
+	 * @param edge An edge to add
 	 */
 	public void addEdge(Edge edge) {
 		/* set predecessor and add edge to flow */
@@ -114,6 +116,7 @@ public class Flow extends SchedulableObject implements Comparable<Flow>{
 	
 	/**
 	 * Add and edge to the flow.
+	 * @param node A node to add
 	 */
 	public void addNode(Node node) {
 		/* set predecessor and add edge to flow */

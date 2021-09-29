@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.uiowa.cs.warp;
 
 import edu.uiowa.cs.utilities.Utilities;
@@ -8,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-// import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -16,6 +12,9 @@ import java.util.Vector;
 import java.util.stream.Collectors;
 
 /**
+ * WorkLoad creates an object, given an input file, containing information that will be
+ * used to measure the graphs efficiency.
+ * 
  * @author sgoddard
  *
  */
@@ -33,15 +32,21 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
   private Boolean intForNodeNames = false;
   private Boolean intForFlowNames = false;
   private FlowMap flows; // map of all flow nodes in the WARP graph (<name, Flow>)
-  // private Integer nFlows = 0;
   private NodeMap nodes; // map of all graph nodes in the WARP graph (<name, Node>)
   private String name;
   private ArrayList<String> flowNamesInOriginalOrder = new ArrayList<>(); // array to hold names of
                                                                           // flows to preserve their
                                                                           // order
   private ArrayList<String> flowNamesInPriorityOrder = new ArrayList<>();
-  // private FileManager fm;
 
+  /**
+   * Creates a workload with the specified information.
+   * 
+   * @param m
+   * @param e2e
+   * @param inputFileName
+   */
+  
   WorkLoad(Double m, Double e2e, String inputFileName) {
     super(inputFileName);
     setDefaultParameters();
@@ -54,6 +59,15 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     WorkLoadListener.buildNodesAndFlows(this);
   }
 
+  /**
+   * Creates a workload with the specified information
+   * 
+   * @param numFaults
+   * @param m 
+   * @param e2e 
+   * @param inputFileName
+   * 
+  */
   WorkLoad(Integer numFaults, Double m, Double e2e, String inputFileName) {
     super(inputFileName);
     setDefaultParameters();
@@ -238,23 +252,18 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
   }
 
   /**
+   * @param name Name of node
    * @return the node channel
    */
   public Integer getNodeChannel(String name) {
     var node = nodes.get(name); // get the node object
     return node.getChannel();
   }
-
+ /** Adds a new flow mode to the Flows dictionary with a new name, index, and priority with the other parameters 
+  * set to default if the flow doesn't have custom parameters
+  * @param flowName Flow's name
+  */
   public void addFlow(String flowName) {
-    /*
-     * add a new flow node to the Flows dictionary. Only name, priority, and index are changed from
-     * default values priority is set to the number of flows already added (index), 0 for first flow
-     * This will create a default priority equal to the order listed in the input graph file. We
-     * also set index to the same value so we can preserve that order as a secondary sort key. The
-     * initalPriority field is probably not needed, but it might be useful in the future?? If the
-     * optional flow parameters (priority, period, ...) is set, then this default priority will be
-     * over written
-     */
     if (flows.containsKey(flowName)) {
       System.out.printf("\n\tWarning! A flow with name %s already exists. "
           + "It has been replaced with a new flow\n.");
@@ -268,16 +277,25 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     }
     flowNamesInOriginalOrder.add(flowName);
   }
-
+  /** Checks if all node names are integers
+   * @return A boolean indicating if all node names are integers or not
+   */
   public Boolean isIntForNodeNames() { // returns true if all node names are ints
     return intForNodeNames;
   }
-
+  /** Checks if all flow names are integers
+   * @return A boolean indicating if all flow names are integers or not
+   */
   public Boolean isIntForFlowNames() { // returns true if all flow names are an ints
     return intForFlowNames;
   }
 
-
+  /**
+   * Adds an existing node to a map of nodes or creates a node, if the given node is not already in the map of nodes,
+   * and then adds it to the map, once created, it adds the node to the given flow
+   * @param flowName Flow's name
+   * @param nodeName Node's name
+   */
   public void addNodeToFlow(String flowName, String nodeName) {
     if (!Utilities.isInteger(nodeName) && intForNodeNames) {
       /* set false because name not is a number; && above makes sure we only set it once */
@@ -301,7 +319,12 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     flowNode.linkTxAndTotalCost.add(DEFAULT_TX_NUM);
   }
 
-
+  /**
+   * Gets the given flow node's priority attribute
+   * @param flowName Flow's name
+   * @param nodeName Node's name
+   * @return An integer representing the priority attribute of the given Flow
+   */
   public Integer getFlowPriority(String flowName, String nodeName) {
     var priority = 0;
     var flow = getFlow(flowName);
@@ -315,57 +338,105 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     }
     return priority;
   }
-
+  /**
+   * Set's a given flow node's priority attribute
+   * @param flowName Flow's name
+   * @param priority Integer to set the given flow's priority attribute to
+   */
   public void setFlowPriority(String flowName, Integer priority) {
     var flowNode = getFlow(flowName);
     flowNode.setPriority(priority);
   }
-
+  /**
+   * Set's a given flow's period attribute to a given integer, denoting the time between
+   * successive releases of a packet of data from the source node
+   * @param flowName Flow's name
+   * @param period Given period attribute to change the given flow's period to
+   */
   public void setFlowPeriod(String flowName, Integer period) {
     var flowNode = getFlow(flowName);
     flowNode.setPeriod(period);
   }
-
+  /**
+   * Set's a given flow's deadline attribute, which is the amount of time that can elapse
+   * from the release of a packet and its arrival at the sink node
+   * @param flowName Flow's name
+   * @param deadline Amount of time the given flow can have for a deadline 
+   */
   public void setFlowDeadline(String flowName, Integer deadline) {
     var flowNode = getFlow(flowName);
     flowNode.setDeadline(deadline);
   }
-
+  /**Set a flow's phase
+   * 
+   * @param flowName Name of flow
+   * @param phase Given phase
+   */
   public void setFlowPhase(String flowName, Integer phase) {
     var flowNode = getFlow(flowName);
     flowNode.setPhase(phase);
   }
-
+  /** Gets a flow's index
+   * 
+   * @param flowName Name of flow
+   * @return Flow's index
+   */
   public Integer getFlowIndex(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.index;
   }
-
+  /**Gets a flow's priority
+   * 
+   * @param flowName Name of flow
+   * @return Flow's priority
+   */
   public Integer getFlowPriority(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.getPriority();
   }
-
+  /**
+   * Gets a given Flow's period attribute, which is the time between successive releases
+   * of a packet of data from the source node
+   * @param flowName Flow's name
+   * @return An integer representing the given flow's period attribute
+   */
   public Integer getFlowPeriod(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.getPeriod();
   }
-
+  /**
+   * Gets a given Flow's deadline, which is the amount of time that can elapse
+   * from the release of a packet and its arrival at the sink node
+   * @param flowName Flow's name
+   * @return An integer indicating a flow's allotted deadline
+   */
   public Integer getFlowDeadline(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.getDeadline();
   }
-
+  /**
+   * Get's a given flow's phase attribute, which is the time offset from time 0 that the
+   * first release of data occurs
+   * @param flowName Flow's name
+   * @return An integer representing the given flow's phase attribute
+   */
   public Integer getFlowPhase(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.getPhase();
   }
-
+  /**
+   * Get a given flow's number of transmissions per link
+   * @param flowName Flow's name
+   * @return An integer representing the given flow's transmissions per link
+   */
   public Integer getFlowTxPerLink(String flowName) {
     var flowNode = getFlow(flowName);
     return flowNode.numTxPerLink;
   }
 
+  /**
+   * Arranges the flows from FlowMap in priority order.
+   */
   public void setFlowsInPriorityOrder() {
     // create a list of Flow objects from the FlowMap using the stream interface.
     List<Flow> unsortedFlows = flows.values().stream().collect(Collectors.toList());
@@ -381,6 +452,9 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     sortedFlows.forEach((node) -> flowNamesInPriorityOrder.add(node.getName()));
   }
 
+  /**
+   * Arranges the flows in FlowMap by deadlines.
+   */
   public void setFlowsInDMorder() {
     /* create a list of Flow objects from the FlowMap using the stream interface. */
     List<Flow> unsortedFlows = flows.values().stream().collect(Collectors.toList());
@@ -398,6 +472,9 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     sortedFlows.forEach((node) -> flowNamesInPriorityOrder.add(node.getName()));
   }
 
+  /**
+   * Arranges the flows in FlowMap by their periods.
+   */
   public void setFlowsInRMorder() {
     // create a list of Flow objects from the FlowMap using the stream interface.
     List<Flow> unsortedFlows = flows.values().stream().collect(Collectors.toList());
@@ -412,11 +489,16 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     flowNamesInPriorityOrder = new ArrayList<>();
     sortedFlows.forEach((node) -> flowNamesInPriorityOrder.add(node.getName()));
   }
-
+  /**Set flows in priority order
+   * 
+   */
   public void setFlowsInRealTimeHARTorder() {
     setFlowsInPriorityOrder(); // use Priority order for RealTimeHART
   }
-
+  /** Finalize current flow
+   * 
+   * @param flowName Name of flow
+   */
   public void finalizeCurrentFlow(String flowName) {
     if (numFaults > 0) {
       finalizeFlowWithFixedFaultTolerance(flowName);
@@ -531,9 +613,7 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     reliabilityWindow.add(newReliabilityRow); // now add row to the reliability window, Time 0
     Vector<Double> tmpVector = reliabilityWindow.get(0);
     var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);
-    // var currentReliabilityRow = (Double[]) reliabilityWindow.get(0).toArray();
     // Want reliabilityWindow[0][0] = 1.0 (i.e., P(packet@FlowSrc) = 1
-    // but I din't want to mess with the newReliablityRow vector I use below
     // So, we initialize this first entry to 1.0, wich is reliabilityWindow[0][0]
     // We will then update this row with computed values for each node and put it
     // back in the matrix
@@ -546,7 +626,7 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
                                                                           // will be 0 with this
                                                                           // statement
     var timeSlot = 0; // start time at 0
-    while (e2eReliabilityState < e2e) { // change to while and increment increment timeSlot becuase
+    while (e2eReliabilityState < e2e) { // change to while and increment increment timeSlot because
                                         // we don't know how long this schedule window will last
       var prevReliabilityRow = currentReliabilityRow;
       currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
@@ -561,7 +641,6 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
       // this is the update formula for the state probabilities
       // nextState = (1 - M) * prevState + M*NextHighestFlowState
       // use MinLQ for M in above equation
-      // NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState
 
       for (int nodeIndex = 0; nodeIndex < (nNodesInFlow - 1); nodeIndex++) { // loop through each
                                                                              // node in the flow and
@@ -652,7 +731,11 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return nPushesArrayList;
   }
 
-
+  /**
+   * Returns an array of nodes sorted by their names.
+   * 
+   * @return nodeNames An array of nodes sorted alphabetically
+   */
   public String[] getNodesOrderedAlphabetically() {
     var nodes = getNodes();
     Set<String> keys = nodes.keySet(); // get the names from the node map
@@ -695,14 +778,23 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return flow;
   }
 
-  // public function to return an array of flow names in the order they were read from
-  // the graph file
+  /**
+   * Public function to return an array of flow names in the order they were read from
+   * the graph file.
+   * 
+   * @return flowNamesInOriginalOrder.toArray(new String[0]) An array of strings containing the
+   * flow names from the graph file.
+   */
   public String[] getFlowNames() {
     return flowNamesInOriginalOrder.toArray(new String[0]);
-    // could use new String[list.size()], but due to JVM optimizations new (new String[0] is better
   }
 
-  // public function to return the dictionary of nodes
+  /** 
+   * Public function to return the dictionary of nodes.
+   * 
+   * @param nodeName A string of the specific node desired. 
+   * @return index The nodes index. 
+   */
   public Integer getNodeIndex(String nodeName) {
     var index = 0;
     var node = nodes.get(nodeName); // could throw an exception if null, but just return 0 for now
@@ -712,6 +804,12 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return index;
   }
 
+  /** 
+   * Returns an array of nodes in the order that they appear in the flow.
+   * 
+   * @param flowName A string containing the name of the desired flow.
+   * @return nodes An array of all the nodes found in that flow. 
+   */
   public String[] getNodesInFlow(String flowName) {
     // get the flow node for requested Flow and then loop through the
     // nodes in the flow to create an array of the node names in
@@ -732,10 +830,14 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return nodes;
   }
 
+  /** 
+   * Updates HyperPeriod the the the current period value.
+   * 
+   * @return hyperPeriod An Integer that represents the current hyperPeriod.
+   */
   public Integer getHyperPeriod() {
     var hyperPeriod = 1; // hyperPeriod is LCM of all periods. Initialize to 1
     for (String flowName : getFlowNames()) {
-      // var dm = new Utlitities();
       hyperPeriod = Utilities.lcm(hyperPeriod, getFlowPeriod(flowName)); // Find LCM of hyperPeriod
                                                                          // so far and the current
                                                                          // period, then update the
@@ -745,6 +847,12 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return hyperPeriod;
   }
 
+  /** 
+   * Returns the total cost of a given flow.
+   * 
+   * @param flowName A string of the desired flow. 
+   * @return totalCost An integer that represents the total cost of the flow. 
+   */
   public Integer getTotalCommunicationCost(String flowName) {
     var flow = getFlow(flowName);
     var linkTxAndTotalCost = flow.getLinkTxAndTotalCost();
@@ -753,23 +861,39 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
     return totalCost;
   }
 
-  // return an array of the number of transmission needed for each
-  // link (i.e. edge in the flow graph) to meet E2E target
+  /** 
+   * Return an array of the number of transmission needed for each
+   * link (i.e. edge in the flow graph) to meet E2E target.
+   *
+   * @param flowName A string of the desired flow. 
+   * @return linkTxAndTotalCost.toArray(new Integer[0]) An array of Integers
+   * that contains the total cost of Links within the flow. 
+   */
   public Integer[] getLinkCommunicationCosts(String flowName) {
     var flow = getFlow(flowName);
     var linkTxAndTotalCost = new ArrayList<Integer>(flow.getLinkTxAndTotalCost());
     var lastElement = linkTxAndTotalCost.size() - 1;
-    linkTxAndTotalCost.remove(lastElement); // remove the last element, because that is the sum of
-                                            // others
+    linkTxAndTotalCost.remove(lastElement); /* remove the last element, because that is the sum of
+                                            others */
     return linkTxAndTotalCost.toArray(new Integer[0]);
   }
 
-
+  /** 
+   * Adds an edge connected to the given node.
+   * 
+   * @param nodeName String of the desired node you wish to add an edge to. 
+   * @param edge The Edge that is being added. 
+   */
   public void addEdge(String nodeName, Edge edge) {
     var node = nodes.get(nodeName); // get the node object
     node.addEdge(edge);
   }
 
+  /** 
+   * Returns the max length of a flow.
+   * 
+   * @return maxLength An Integer that represents the max length of the flow. 
+   */
   public Integer maxFlowLength() {
     Integer maxLength = 0;
     for (Flow flow : flows.values()) {
