@@ -97,7 +97,7 @@ public class WorkLoadDescription extends VisualizationObject {
 		
 		for(int k = 0; k < sortingList.size(); k ++) {
 			
-			System.out.print("Flow " + (k + FLOW_NUM) + ": " + sortingList.get(k));
+			System.out.println("Flow " + (k + FLOW_NUM) + ": " + sortingList.get(k));
 		
 		}
 	}
