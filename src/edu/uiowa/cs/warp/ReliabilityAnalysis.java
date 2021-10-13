@@ -50,9 +50,9 @@ public class ReliabilityAnalysis {
 
     // TODO Auto-generated class
     public ReliabilityTable getReliabilities() {
-    	   // TODO implement this operation
-    	   throw new UnsupportedOperationException("not implemented");
-    	}
+    	// TODO implement this operation
+    	throw new UnsupportedOperationException("not implemented");
+    }
     
 	public Boolean verifyReliabilities ()  {
 		// TODO Auto-generated method stub

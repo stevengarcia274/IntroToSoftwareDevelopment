@@ -10,4 +10,7 @@ the -o flag option in the program arguments box, located in the run configuratio
 that certain flags might require arguments.
 
 
+Student Edit (10/13/21): Generated some UML diagrams for Reliability*.java, WorkLoad.java, and SchedulableObject.java files. I also added a public method, 
+with return type ReliabilityTable, to ReliabilityAnalysis.java through its class box diagram. 
+
 <br>
