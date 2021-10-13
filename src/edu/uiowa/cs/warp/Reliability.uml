@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_ce4iQCumEeyJjNOKZ7e9aA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_ce4iQSumEeyJjNOKZ7e9aA" source="codegen">
         <details xmi:id="_ce4iQiumEeyJjNOKZ7e9aA" key="codegenDirectory" value="/cs2820-fall21/src"/>
-        <details xmi:id="_dhsDECumEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;1144041800/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;4200694574/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;3763510556/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;3957719957/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;"/>
+        <details xmi:id="_dhsDECumEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;3895130950/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;4200694574/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;3763510556/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;543057753/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_dKr4UCumEeyJjNOKZ7e9aA">
@@ -6014,42 +6014,42 @@ priority schedule for the Poset using numChannels.
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_dM9wQCumEeyJjNOKZ7e9aA" name="ReliabilityAnalysis">
-              <ownedComment xmi:id="_O1Z4ACuqEeyJjNOKZ7e9aA">
-                <body>ReliabilityAnalysis analyzes the end-to-end reliability
-of messages transmitted in flows for the WARP system. &lt;p>
- 
-Let M represent the Minimum Packet Reception Rate on an
-edge in a flow. The end-to-end reliability for each
-flow, flow:src->sink, is computed iteratively as follows:&lt;br>
-(1)The flow:src node has an initial probability of 1.0 when
-it is released. All other initial probabilities are 0.0. (That
-is, the reset of the nodes in the flow have an initial probability
-value of 0.0.) &lt;br>
-(2) each src->sink pair probability is computed as
-NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>
-This value represents the probability that the message as been 
-received by the node SinkNode.
-Thus, the NewSinkNodeState probability will increase each time 
-a push or pull is executed with SinkNode as a listener. &lt;p>
-
-The last probability state value for any node is the reliability of
-the message reaching that node, and the end-to-end reliability of
-a flow is the value of the last Flow:SinkNode probability.&lt;p>
-
-CS2820 Fall 2021 Project: Implement this class to compute the
-probabilities the comprise the ReliablityMatrix, which is the core
-of the file visualization that is requested in WarpTester.&lt;p>
-
-To do this, you will need to retrieve the program source,
-parse the instructions for each node, in each time slot,
-to extract the src and snk nodes in the instruction and then
-apply the message success probability equation defined above.&lt;p>
-
-I recommend using the getInstructionParameters method of the 
-WarpDSL class to extract the src and snk nodes from the instruction 
-string in a program schedule time slot.
-
-@author sgoddard
+              <ownedComment xmi:id="_glTwkCxgEey8sNVnRs1qPg">
+                <body>ReliabilityAnalysis analyzes the end-to-end reliability&#xD;
+of messages transmitted in flows for the WARP system. &lt;p>&#xD;
+ &#xD;
+Let M represent the Minimum Packet Reception Rate on an&#xD;
+edge in a flow. The end-to-end reliability for each&#xD;
+flow, flow:src->sink, is computed iteratively as follows:&lt;br>&#xD;
+(1)The flow:src node has an initial probability of 1.0 when&#xD;
+it is released. All other initial probabilities are 0.0. (That&#xD;
+is, the reset of the nodes in the flow have an initial probability&#xD;
+value of 0.0.) &lt;br>&#xD;
+(2) each src->sink pair probability is computed as&#xD;
+NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>&#xD;
+This value represents the probability that the message as been &#xD;
+received by the node SinkNode.&#xD;
+Thus, the NewSinkNodeState probability will increase each time &#xD;
+a push or pull is executed with SinkNode as a listener. &lt;p>&#xD;
+&#xD;
+The last probability state value for any node is the reliability of&#xD;
+the message reaching that node, and the end-to-end reliability of&#xD;
+a flow is the value of the last Flow:SinkNode probability.&lt;p>&#xD;
+&#xD;
+CS2820 Fall 2021 Project: Implement this class to compute the&#xD;
+probabilities the comprise the ReliablityMatrix, which is the core&#xD;
+of the file visualization that is requested in WarpTester.&lt;p>&#xD;
+&#xD;
+To do this, you will need to retrieve the program source,&#xD;
+parse the instructions for each node, in each time slot,&#xD;
+to extract the src and snk nodes in the instruction and then&#xD;
+apply the message success probability equation defined above.&lt;p>&#xD;
+&#xD;
+I recommend using the getInstructionParameters method of the &#xD;
+WarpDSL class to extract the src and snk nodes from the instruction &#xD;
+string in a program schedule time slot.&#xD;
+&#xD;
+@author sgoddard&#xD;
  *</body>
               </ownedComment>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWmNdiumEeyJjNOKZ7e9aA" name="ReliabilityAnalysis" specification="_dUfUkSumEeyJjNOKZ7e9aA">
@@ -6058,7 +6058,7 @@ string in a program schedule time slot.
                   <name xsi:nil="true"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>// TODO Auto-generated constructor stub
+                <body>// TODO Auto-generated constructor stub&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWmNeSumEeyJjNOKZ7e9aA" name="verifyReliabilities" specification="_dM9wQSumEeyJjNOKZ7e9aA">
@@ -6067,8 +6067,8 @@ string in a program schedule time slot.
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>// TODO Auto-generated method stub
-     return false;
+                <body>// TODO Auto-generated method stub&#xD;
+     return false;&#xD;
  </body>
               </ownedBehavior>
               <ownedOperation xmi:id="_dM9wQSumEeyJjNOKZ7e9aA" name="verifyReliabilities" method="_dWmNeSumEeyJjNOKZ7e9aA">
@@ -10086,9 +10086,9 @@ constraints
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_dNrh8CumEeyJjNOKZ7e9aA" name="WorkLoadDescription">
-              <ownedComment xmi:id="_dW5IUiumEeyJjNOKZ7e9aA">
-                <body>Provides information on graphs that are given through .txt files
-
+              <ownedComment xmi:id="_glTwkSxgEey8sNVnRs1qPg">
+                <body>Provides information on graphs that are given through .txt files&#xD;
+&#xD;
 @author sgoddard</body>
               </ownedComment>
               <generalization xmi:id="_dU154SumEeyJjNOKZ7e9aA" general="_dNacMCumEeyJjNOKZ7e9aA"/>
@@ -10112,31 +10112,38 @@ constraints
                 <ownedParameter xmi:id="_dWuJNyumEeyJjNOKZ7e9aA" name="inputFileName">
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
-                <ownedParameter xmi:id="_dWuJOCumEeyJjNOKZ7e9aA" type="_dNrh8CumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWuJOCumEeyJjNOKZ7e9aA" type="_dNrh8CumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>super(new FileManager(), EMPTY, INPUT_FILE_SUFFIX); // VisualizationObject constructor
-		this.fm = this.getFileManager();
-		initialize(inputFileName);
+                <body>super(new FileManager(), EMPTY, INPUT_FILE_SUFFIX); // VisualizationObject constructor&#xD;
+		this.fm = this.getFileManager();&#xD;
+		initialize(inputFileName);&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWuJOSumEeyJjNOKZ7e9aA" name="visualization" specification="_dNsJACumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWuJOiumEeyJjNOKZ7e9aA" type="_dMRzwSumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWuJOiumEeyJjNOKZ7e9aA" type="_dMRzwSumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return description;
+                <body>return description;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWuJOyumEeyJjNOKZ7e9aA" name="fileVisualization" specification="_dNsJBCumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWuJPCumEeyJjNOKZ7e9aA" type="_dMRzwSumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWuJPCumEeyJjNOKZ7e9aA" type="_dMRzwSumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return description;
+                <body>return description;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWuJPSumEeyJjNOKZ7e9aA" name="toString" specification="_dNswECumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWuJPiumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return inputGraphString;
+                <body>return inputGraphString;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWuJPyumEeyJjNOKZ7e9aA" name="initialize" specification="_dNswFSumEeyJjNOKZ7e9aA">
@@ -10144,11 +10151,11 @@ constraints
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>// Get the input graph file name and read its contents
-		InputGraphFile gf = new InputGraphFile(fm);
-		inputGraphString = gf.readGraphFile(inputFile);
-		this.inputFileName = gf.getGraphFileName();
-		description = new Description(inputGraphString);
+                <body>// Get the input graph file name and read its contents&#xD;
+		InputGraphFile gf = new InputGraphFile(fm);&#xD;
+		inputGraphString = gf.readGraphFile(inputFile);&#xD;
+		this.inputFileName = gf.getGraphFileName();&#xD;
+		description = new Description(inputGraphString);&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWuJQSumEeyJjNOKZ7e9aA" name="main" specification="_dNswFyumEeyJjNOKZ7e9aA">
@@ -10157,42 +10164,42 @@ constraints
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dWuJQyumEeyJjNOKZ7e9aA" value="*"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>//Declarations at the beginning of block 
-		int REMOVE_CURLY = 3; //constant to remove curly bracket
-		int FLOW_NUM = 1; //used to increment printed flow numbers
-		String Temp; //temporary string to hold graph title 
-		String graphToString; //used to manipulate file contents
-		String[] fileLines; //temporary array to hold contents
-		ArrayList&lt;String> sortingList = new ArrayList&lt;>(); //ArrayList used to sort
-		
-		WorkLoadDescription inputGraph = new WorkLoadDescription(&quot;StressTest4.txt&quot;); 
-		
-		graphToString = inputGraph.toString(); 
-		
-		fileLines = graphToString.split(&quot;\n&quot;); //each line becomes its own element in array
-				
-		//add graph contents to ArrayList
-		for(int i = 0; i &lt; fileLines.length; i ++) {
-			
-			sortingList.add(fileLines[i]);
-			
-		}
-		
-		Temp = sortingList.remove(0); //remove brackets and title to focus on sorting
-		
-		sortingList.remove(sortingList.size() - 1 );
-		
-		Collections.sort(sortingList); //sort
-		//Collections.sort(sortingList, String.CASE_INSENSITIVE_ORDER);
-		
-		//print graph title followed by sorted contents
-		System.out.println(Temp.substring(0, Temp.length() - REMOVE_CURLY));
-		
-		for(int k = 0; k &lt; sortingList.size(); k ++) {
-			
-			System.out.println(&quot;Flow &quot; + (k + FLOW_NUM) + &quot;: &quot; + sortingList.get(k));
-		
-		}
+                <body>//Declarations at the beginning of block &#xD;
+		int REMOVE_CURLY = 3; //constant to remove curly bracket&#xD;
+		int FLOW_NUM = 1; //used to increment printed flow numbers&#xD;
+		String Temp; //temporary string to hold graph title &#xD;
+		String graphToString; //used to manipulate file contents&#xD;
+		String[] fileLines; //temporary array to hold contents&#xD;
+		ArrayList&lt;String> sortingList = new ArrayList&lt;>(); //ArrayList used to sort&#xD;
+		&#xD;
+		WorkLoadDescription inputGraph = new WorkLoadDescription(&quot;StressTest4.txt&quot;); &#xD;
+		&#xD;
+		graphToString = inputGraph.toString(); &#xD;
+		&#xD;
+		fileLines = graphToString.split(&quot;\n&quot;); //each line becomes its own element in array&#xD;
+				&#xD;
+		//add graph contents to ArrayList&#xD;
+		for(int i = 0; i &lt; fileLines.length; i ++) {&#xD;
+			&#xD;
+			sortingList.add(fileLines[i]);&#xD;
+			&#xD;
+		}&#xD;
+		&#xD;
+		Temp = sortingList.remove(0); //remove brackets and title to focus on sorting&#xD;
+		&#xD;
+		sortingList.remove(sortingList.size() - 1 );&#xD;
+		&#xD;
+		Collections.sort(sortingList); //sort&#xD;
+		//Collections.sort(sortingList, String.CASE_INSENSITIVE_ORDER);&#xD;
+		&#xD;
+		//print graph title followed by sorted contents&#xD;
+		System.out.println(Temp.substring(0, Temp.length() - REMOVE_CURLY));&#xD;
+		&#xD;
+		for(int k = 0; k &lt; sortingList.size(); k ++) {&#xD;
+			&#xD;
+			System.out.println(&quot;Flow &quot; + (k + FLOW_NUM) + &quot;: &quot; + sortingList.get(k));&#xD;
+		&#xD;
+		}&#xD;
 	</body>
               </ownedBehavior>
               <ownedOperation xmi:id="_dNrh8SumEeyJjNOKZ7e9aA" name="WorkLoadDescription" visibility="package" method="_dWuJNiumEeyJjNOKZ7e9aA">
