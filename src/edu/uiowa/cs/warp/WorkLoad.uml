@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_KvSQ0CuiEeyJjNOKZ7e9aA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_KvS34CuiEeyJjNOKZ7e9aA" source="codegen">
         <details xmi:id="_KvS34SuiEeyJjNOKZ7e9aA" key="codegenDirectory" value="/cs2820-fall21/src"/>
-        <details xmi:id="_L_ulACuiEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;1144041800/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;4200694574/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;3763510556/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;3957719957/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;"/>
+        <details xmi:id="_L_ulACuiEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;428732227/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;4200694574/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;3763510556/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;3957719957/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_Li--oCuiEeyJjNOKZ7e9aA">
@@ -6014,42 +6014,42 @@ priority schedule for the Poset using numChannels.
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmjQACuiEeyJjNOKZ7e9aA" name="ReliabilityAnalysis">
-              <ownedComment xmi:id="_OtjjkCuqEeyJjNOKZ7e9aA">
-                <body>ReliabilityAnalysis analyzes the end-to-end reliability
-of messages transmitted in flows for the WARP system. &lt;p>
- 
-Let M represent the Minimum Packet Reception Rate on an
-edge in a flow. The end-to-end reliability for each
-flow, flow:src->sink, is computed iteratively as follows:&lt;br>
-(1)The flow:src node has an initial probability of 1.0 when
-it is released. All other initial probabilities are 0.0. (That
-is, the reset of the nodes in the flow have an initial probability
-value of 0.0.) &lt;br>
-(2) each src->sink pair probability is computed as
-NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>
-This value represents the probability that the message as been 
-received by the node SinkNode.
-Thus, the NewSinkNodeState probability will increase each time 
-a push or pull is executed with SinkNode as a listener. &lt;p>
-
-The last probability state value for any node is the reliability of
-the message reaching that node, and the end-to-end reliability of
-a flow is the value of the last Flow:SinkNode probability.&lt;p>
-
-CS2820 Fall 2021 Project: Implement this class to compute the
-probabilities the comprise the ReliablityMatrix, which is the core
-of the file visualization that is requested in WarpTester.&lt;p>
-
-To do this, you will need to retrieve the program source,
-parse the instructions for each node, in each time slot,
-to extract the src and snk nodes in the instruction and then
-apply the message success probability equation defined above.&lt;p>
-
-I recommend using the getInstructionParameters method of the 
-WarpDSL class to extract the src and snk nodes from the instruction 
-string in a program schedule time slot.
-
-@author sgoddard
+              <ownedComment xmi:id="_pe8WgDBMEeyJyfgKlcqSwg">
+                <body>ReliabilityAnalysis analyzes the end-to-end reliability&#xD;
+of messages transmitted in flows for the WARP system. &lt;p>&#xD;
+ &#xD;
+Let M represent the Minimum Packet Reception Rate on an&#xD;
+edge in a flow. The end-to-end reliability for each&#xD;
+flow, flow:src->sink, is computed iteratively as follows:&lt;br>&#xD;
+(1)The flow:src node has an initial probability of 1.0 when&#xD;
+it is released. All other initial probabilities are 0.0. (That&#xD;
+is, the reset of the nodes in the flow have an initial probability&#xD;
+value of 0.0.) &lt;br>&#xD;
+(2) each src->sink pair probability is computed as&#xD;
+NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>&#xD;
+This value represents the probability that the message as been &#xD;
+received by the node SinkNode.&#xD;
+Thus, the NewSinkNodeState probability will increase each time &#xD;
+a push or pull is executed with SinkNode as a listener. &lt;p>&#xD;
+&#xD;
+The last probability state value for any node is the reliability of&#xD;
+the message reaching that node, and the end-to-end reliability of&#xD;
+a flow is the value of the last Flow:SinkNode probability.&lt;p>&#xD;
+&#xD;
+CS2820 Fall 2021 Project: Implement this class to compute the&#xD;
+probabilities the comprise the ReliablityMatrix, which is the core&#xD;
+of the file visualization that is requested in WarpTester.&lt;p>&#xD;
+&#xD;
+To do this, you will need to retrieve the program source,&#xD;
+parse the instructions for each node, in each time slot,&#xD;
+to extract the src and snk nodes in the instruction and then&#xD;
+apply the message success probability equation defined above.&lt;p>&#xD;
+&#xD;
+I recommend using the getInstructionParameters method of the &#xD;
+WarpDSL class to extract the src and snk nodes from the instruction &#xD;
+string in a program schedule time slot.&#xD;
+&#xD;
+@author sgoddard&#xD;
  *</body>
               </ownedComment>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ly-ieyuiEeyJjNOKZ7e9aA" name="ReliabilityAnalysis" specification="_LwICwyuiEeyJjNOKZ7e9aA">
@@ -6058,7 +6058,7 @@ string in a program schedule time slot.
                   <name xsi:nil="true"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>// TODO Auto-generated constructor stub
+                <body>// TODO Auto-generated constructor stub&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ly-ifiuiEeyJjNOKZ7e9aA" name="verifyReliabilities" specification="_LmjQASuiEeyJjNOKZ7e9aA">
@@ -6067,8 +6067,8 @@ string in a program schedule time slot.
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>// TODO Auto-generated method stub
-     return false;
+                <body>// TODO Auto-generated method stub&#xD;
+     return false;&#xD;
  </body>
               </ownedBehavior>
               <ownedOperation xmi:id="_LmjQASuiEeyJjNOKZ7e9aA" name="verifyReliabilities" method="_Ly-ifiuiEeyJjNOKZ7e9aA">

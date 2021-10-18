@@ -1,5 +1,7 @@
 package edu.uiowa.cs.warp;
 
+import java.util.ArrayList;
+
 /**
  * ReliabilityAnalysis analyzes the end-to-end reliability
  * of messages transmitted in flows for the WARP system. <p>
