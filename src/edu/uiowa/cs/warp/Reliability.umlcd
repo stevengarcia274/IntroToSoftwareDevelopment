@@ -195,7 +195,6 @@
       <cardinality xmi:id="_G1kG1yxeEey8sNVnRs1qPg" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pEOJYTBMEeyJyfgKlcqSwg" targetItem="_npZ58CumEeyJjNOKZ7e9aA" sourceItem="_pEOJYDBMEeyJyfgKlcqSwg"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VK9DcDBNEeyJyfgKlcqSwg">
     <modelElement href="Reliability.uml#_dW5vYSumEeyJjNOKZ7e9aA"/>
     <nameVisual xmi:id="_VK9DcTBNEeyJyfgKlcqSwg" text=""/>
@@ -335,6 +334,7 @@
     </targetRole>
   </edges>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_PYFWsDHeEeyBLonIa2KKjw" targetItem="_nqs6eSumEeyJjNOKZ7e9aA" sourceItem="_PX7lsDHeEeyBLonIa2KKjw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_nrXUYDHeEeyBLonIa2KKjw" targetItem="_npZ58CumEeyJjNOKZ7e9aA" sourceItem="_nrVfMDHeEeyBLonIa2KKjw"/>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_npfZgCumEeyJjNOKZ7e9aA" sourceConnectionVisual="_npjq8CumEeyJjNOKZ7e9aA" text="@author sgoddard&#xA; *" item="_nplgICumEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_dW3TIiumEeyJjNOKZ7e9aA"/>
   </nodes>
@@ -1130,10 +1130,7 @@
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_G1dZICxeEey8sNVnRs1qPg" sourceConnectionVisual="_G1dZISxeEey8sNVnRs1qPg" text="@author sgoddard&#xA; *">
     <modelElement href="Reliability.uml#_dW2sGSumEeyJjNOKZ7e9aA"/>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pEOJYDBMEeyJyfgKlcqSwg" sourceConnectionVisual="_pEOJYTBMEeyJyfgKlcqSwg" text="ReliabilityAnalysis analyzes the end-to-end reliability&#xD;&#xA;of messages transmitted in flows for the WARP system. &lt;p>&#xD;&#xA; &#xD;&#xA;Let M represent the Minimum Packet Reception Rate on an&#xD;&#xA;edge in a flow. The end-to-end reliability for each&#xD;&#xA;flow, flow:src->sink, is computed iteratively as follows:&lt;br>&#xD;&#xA;(1)The flow:src node has an initial probability of 1.0 when&#xD;&#xA;it is released. All other initial probabilities are 0.0. (That&#xD;&#xA;is, the reset of the nodes in the flow have an initial probability&#xD;&#xA;value of 0.0.) &lt;br>&#xD;&#xA;(2) each src->sink pair probability is computed as&#xD;&#xA;NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>&#xD;&#xA;This value represents the probability that the message as been &#xD;&#xA;received by the node SinkNode.&#xD;&#xA;Thus, the NewSinkNodeState probability will increase each time &#xD;&#xA;a push or pull is executed with SinkNode as a listener. &lt;p>&#xD;&#xA;&#xD;&#xA;The last probability state value for any node is the reliability of&#xD;&#xA;the message reaching that node, and the end-to-end reliability of&#xD;&#xA;a flow is the value of the last Flow:SinkNode probability.&lt;p>&#xD;&#xA;&#xD;&#xA;CS2820 Fall 2021 Project: Implement this class to compute the&#xD;&#xA;probabilities the comprise the ReliablityMatrix, which is the core&#xD;&#xA;of the file visualization that is requested in WarpTester.&lt;p>&#xD;&#xA;&#xD;&#xA;To do this, you will need to retrieve the program source,&#xD;&#xA;parse the instructions for each node, in each time slot,&#xD;&#xA;to extract the src and snk nodes in the instruction and then&#xD;&#xA;apply the message success probability equation defined above.&lt;p>&#xD;&#xA;&#xD;&#xA;I recommend using the getInstructionParameters method of the &#xD;&#xA;WarpDSL class to extract the src and snk nodes from the instruction &#xD;&#xA;string in a program schedule time slot.&#xD;&#xA;&#xD;&#xA;@author sgoddard&#xD;&#xA; *" item="_npZ58CumEeyJjNOKZ7e9aA">
-    <modelElement href="Reliability.uml#_pDzSoDBMEeyJyfgKlcqSwg"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_npZ58CumEeyJjNOKZ7e9aA" comments="_pEOJYDBMEeyJyfgKlcqSwg" targetConnectionVisual="_pEOJYTBMEeyJyfgKlcqSwg" name="ReliabilityAnalysis" associationsIn="_nqUf8CumEeyJjNOKZ7e9aA">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_npZ58CumEeyJjNOKZ7e9aA" comments="_nrVfMDHeEeyBLonIa2KKjw" targetConnectionVisual="_nrXUYDHeEeyBLonIa2KKjw" name="ReliabilityAnalysis" associationsIn="_nqUf8CumEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_dM9wQCumEeyJjNOKZ7e9aA"/>
     <visualProperties xmi:id="_npZ58SumEeyJjNOKZ7e9aA" position="1455.0,99.0" size="374.0,141.0"/>
     <visibility xmi:id="_npZ58iumEeyJjNOKZ7e9aA" label="+"/>
@@ -1180,6 +1177,9 @@
     </operations>
     <operations xmi:id="_wlPDwDBMEeyJyfgKlcqSwg" name="numTxPerLinkAndTotalCost">
       <modelElement href="Reliability.uml#_wlOcsDBMEeyJyfgKlcqSwg"/>
+      <stereotypes xmi:id="_nraXsDHeEeyBLonIa2KKjw" name="Generics">
+        <modelElement href="Reliability.uml#_nrDyYDHeEeyBLonIa2KKjw"/>
+      </stereotypes>
       <visibility xmi:id="_wlPDwTBMEeyJyfgKlcqSwg" label="+"/>
       <cardinality xmi:id="_wlPDwjBMEeyJyfgKlcqSwg" label="1" max="1" min="1"/>
       <outParameters xmi:id="_wlPDwzBMEeyJyfgKlcqSwg">
@@ -1244,5 +1244,8 @@
   </nodes>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_PX7lsDHeEeyBLonIa2KKjw" sourceConnectionVisual="_PYFWsDHeEeyBLonIa2KKjw" text="ReliabilityVisualization creates the visualizations for&#xD;&#xA;the reliability analysis of the WARP program. &lt;p>&#xD;&#xA;&#xD;&#xA;CS2820 Fall 2021 Project: Implement this class to create&#xD;&#xA;the file visualization that is requested in WarpTester.&#xD;&#xA;&#xD;&#xA;@author sgoddard&#xD;&#xA; *" item="_nqs6eSumEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_PXDb8DHeEeyBLonIa2KKjw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_nrVfMDHeEeyBLonIa2KKjw" sourceConnectionVisual="_nrXUYDHeEeyBLonIa2KKjw" text="ReliabilityAnalysis analyzes the end-to-end reliability&#xD;&#xA;of messages transmitted in flows for the WARP system. &lt;p>&#xD;&#xA; &#xD;&#xA;Let M represent the Minimum Packet Reception Rate on an&#xD;&#xA;edge in a flow. The end-to-end reliability for each&#xD;&#xA;flow, flow:src->sink, is computed iteratively as follows:&lt;br>&#xD;&#xA;(1)The flow:src node has an initial probability of 1.0 when&#xD;&#xA;it is released. All other initial probabilities are 0.0. (That&#xD;&#xA;is, the reset of the nodes in the flow have an initial probability&#xD;&#xA;value of 0.0.) &lt;br>&#xD;&#xA;(2) each src->sink pair probability is computed as&#xD;&#xA;NewSinkNodeState = (1-M)*PrevSnkNodeState + M*PrevSrcNodeState &lt;br>&#xD;&#xA;This value represents the probability that the message as been &#xD;&#xA;received by the node SinkNode.&#xD;&#xA;Thus, the NewSinkNodeState probability will increase each time &#xD;&#xA;a push or pull is executed with SinkNode as a listener. &lt;p>&#xD;&#xA;&#xD;&#xA;The last probability state value for any node is the reliability of&#xD;&#xA;the message reaching that node, and the end-to-end reliability of&#xD;&#xA;a flow is the value of the last Flow:SinkNode probability.&lt;p>&#xD;&#xA;&#xD;&#xA;CS2820 Fall 2021 Project: Implement this class to compute the&#xD;&#xA;probabilities the comprise the ReliablityMatrix, which is the core&#xD;&#xA;of the file visualization that is requested in WarpTester.&lt;p>&#xD;&#xA;&#xD;&#xA;To do this, you will need to retrieve the program source,&#xD;&#xA;parse the instructions for each node, in each time slot,&#xD;&#xA;to extract the src and snk nodes in the instruction and then&#xD;&#xA;apply the message success probability equation defined above.&lt;p>&#xD;&#xA;&#xD;&#xA;I recommend using the getInstructionParameters method of the &#xD;&#xA;WarpDSL class to extract the src and snk nodes from the instruction &#xD;&#xA;string in a program schedule time slot.&#xD;&#xA;&#xD;&#xA;@author sgoddard&#xD;&#xA; *" item="_npZ58CumEeyJjNOKZ7e9aA">
+    <modelElement href="Reliability.uml#_nrFnkDHeEeyBLonIa2KKjw"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
