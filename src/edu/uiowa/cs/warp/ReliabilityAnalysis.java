@@ -40,7 +40,9 @@ import java.util.ArrayList;
  * @author sgoddard
  *  *
  */
+
 public class ReliabilityAnalysis {
+
    public Boolean verifyReliabilities() {
       // TODO Auto-generated method stub
            return false;
@@ -56,8 +58,18 @@ public class ReliabilityAnalysis {
    }
    
    public ArrayList<Integer> numTxPerLinkAndTotalCost(Flow flow) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
+	    var nodesInFlow = flow.nodes;
+	    var nNodesInFlow = nodesInFlow.size();
+	    ArrayList<Integer> txArrayList = new ArrayList<Integer>();
+	    int numFaults = 0;
+		for (int i = 0; i < nNodesInFlow; i++) {
+	      txArrayList.add(numFaults  + 1);
+	    }
+
+	    var numEdgesInFlow = nNodesInFlow - 1;
+	    var maxFaultsInFlow = numEdgesInFlow * numFaults;
+	    txArrayList.add(numEdgesInFlow + maxFaultsInFlow);
+	    return txArrayList;
    }
    
    public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
