@@ -27,7 +27,6 @@
       <cardinality xmi:id="_nqsTYiumEeyJjNOKZ7e9aA" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_nqopACumEeyJjNOKZ7e9aA" targetItem="_nqs6eSumEeyJjNOKZ7e9aA" sourceItem="_nqiiYCumEeyJjNOKZ7e9aA"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nqs6cCumEeyJjNOKZ7e9aA" sourceAnchor="0.0,65.0" targetAnchor="281.0,88.0" target="_2z01sCumEeyJjNOKZ7e9aA" source="_nqs6eSumEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_dXMDRCumEeyJjNOKZ7e9aA"/>
     <visualProperties xmi:id="_2z011CumEeyJjNOKZ7e9aA" position="1201.0,143.0"/>
@@ -335,11 +334,9 @@
       <cardinality xmi:id="_VK-4ujBNEeyJyfgKlcqSwg" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_PYFWsDHeEeyBLonIa2KKjw" targetItem="_nqs6eSumEeyJjNOKZ7e9aA" sourceItem="_PX7lsDHeEeyBLonIa2KKjw"/>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_npfZgCumEeyJjNOKZ7e9aA" sourceConnectionVisual="_npjq8CumEeyJjNOKZ7e9aA" text="@author sgoddard&#xA; *" item="_nplgICumEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_dW3TIiumEeyJjNOKZ7e9aA"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_nqiiYCumEeyJjNOKZ7e9aA" sourceConnectionVisual="_nqopACumEeyJjNOKZ7e9aA" text="ReliabilityVisualization creates the visualizations for&#xA;the reliability analysis of the WARP program. &lt;p>&#xA;&#xA;CS2820 Fall 2021 Project: Implement this class to create&#xA;the file visualization that is requested in WarpTester.&#xA;&#xA;@author sgoddard&#xA; *" item="_nqs6eSumEeyJjNOKZ7e9aA">
-    <modelElement href="Reliability.uml#_dW3TIyumEeyJjNOKZ7e9aA"/>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_np_IwCumEeyJjNOKZ7e9aA" name="ReliabilityTable">
     <modelElement href="Reliability.uml#_dM--ZCumEeyJjNOKZ7e9aA"/>
@@ -589,6 +586,9 @@
       <stereotypes xmi:id="_W8v7wDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W8xJ4DBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W89XIDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGXfUDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGYtcDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGpMIDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
       <visibility xmi:id="_EMVu_iunEeyJjNOKZ7e9aA" label="-"/>
       <cardinality xmi:id="_EMVu_yunEeyJjNOKZ7e9aA" label="1" max="1" min="1"/>
       <type xmi:id="_EMVvACunEeyJjNOKZ7e9aA" name="FileManager">
@@ -906,7 +906,7 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nqs6eSumEeyJjNOKZ7e9aA" comments="_nqiiYCumEeyJjNOKZ7e9aA" targetConnectionVisual="_nqopACumEeyJjNOKZ7e9aA" name="ReliabilityVisualization" associationsOut="_nqUf8CumEeyJjNOKZ7e9aA _nqs6cCumEeyJjNOKZ7e9aA" generalizations="_EMTSsCunEeyJjNOKZ7e9aA">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nqs6eSumEeyJjNOKZ7e9aA" comments="_PX7lsDHeEeyBLonIa2KKjw" targetConnectionVisual="_PYFWsDHeEeyBLonIa2KKjw" name="ReliabilityVisualization" associationsOut="_nqUf8CumEeyJjNOKZ7e9aA _nqs6cCumEeyJjNOKZ7e9aA" generalizations="_EMTSsCunEeyJjNOKZ7e9aA">
     <modelElement href="Reliability.uml#_dM_leiumEeyJjNOKZ7e9aA"/>
     <visualProperties xmi:id="_nqs6eiumEeyJjNOKZ7e9aA" position="1014.0,95.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_nqs6eyumEeyJjNOKZ7e9aA" label="+"/>
@@ -943,6 +943,9 @@
       <stereotypes xmi:id="_W8uGkDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W8utoDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W8_MUDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGR_wDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGT08DHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGroYDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
       <visibility xmi:id="_nqs6hiumEeyJjNOKZ7e9aA" label="-"/>
       <cardinality xmi:id="_nqs6hyumEeyJjNOKZ7e9aA" label="1" max="1" min="1"/>
       <type xmi:id="_nqs6iCumEeyJjNOKZ7e9aA" name="Warp">
@@ -966,6 +969,9 @@
       <stereotypes xmi:id="_W8qcMDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W8sRYDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
       <stereotypes xmi:id="_W8_zYDBOEeyQvrUukoEvoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGNuUDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGQxoDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_LGs2gDHdEeyBLonIa2KKjw" name="LegacyStyledElement"/>
       <visibility xmi:id="_nqs6iyumEeyJjNOKZ7e9aA" label="-"/>
       <cardinality xmi:id="_nqs6jCumEeyJjNOKZ7e9aA" label="1" max="1" min="1"/>
       <type xmi:id="_nqs6jSumEeyJjNOKZ7e9aA" name="ReliabilityAnalysis">
@@ -1235,5 +1241,8 @@
         </type>
       </parameters>
     </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_PX7lsDHeEeyBLonIa2KKjw" sourceConnectionVisual="_PYFWsDHeEeyBLonIa2KKjw" text="ReliabilityVisualization creates the visualizations for&#xD;&#xA;the reliability analysis of the WARP program. &lt;p>&#xD;&#xA;&#xD;&#xA;CS2820 Fall 2021 Project: Implement this class to create&#xD;&#xA;the file visualization that is requested in WarpTester.&#xD;&#xA;&#xD;&#xA;@author sgoddard&#xD;&#xA; *" item="_nqs6eSumEeyJjNOKZ7e9aA">
+    <modelElement href="Reliability.uml#_PXDb8DHeEeyBLonIa2KKjw"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -38,27 +38,36 @@ import java.util.ArrayList;
  * string in a program schedule time slot.
  * 
  * @author sgoddard
- *
+ *  *
  */
 public class ReliabilityAnalysis {
-	// TODO Auto-generated class
-
-
-      
-    
-    public ReliabilityAnalysis(Program program) {
-		// TODO Auto-generated constructor stub
-	}
-
-    // TODO Auto-generated class
-    public ReliabilityTable getReliabilities() {
-    	// TODO implement this operation
-    	throw new UnsupportedOperationException("not implemented");
-    }
-    
-	public Boolean verifyReliabilities ()  {
-		// TODO Auto-generated method stub
-        return false;
-    }
-    
-}
+   public Boolean verifyReliabilities() {
+      // TODO Auto-generated method stub
+           return false;
+       }
+   
+   public ReliabilityAnalysis (Program program) {
+      // TODO Auto-generated constructor stub
+      	}
+   
+   public ReliabilityTable getReliabilities() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public ArrayList<Integer> numTxPerLinkAndTotalCost(Flow flow) {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public ReliabilityAnalysis (Integer numFaults) {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   }

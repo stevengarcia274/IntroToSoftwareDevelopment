@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_ce4iQCumEeyJjNOKZ7e9aA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_ce4iQSumEeyJjNOKZ7e9aA" source="codegen">
         <details xmi:id="_ce4iQiumEeyJjNOKZ7e9aA" key="codegenDirectory" value="/cs2820-fall21/src"/>
-        <details xmi:id="_dhsDECumEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;428732227/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;4200694574/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;3763510556/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;543057753/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;"/>
+        <details xmi:id="_dhsDECumEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;1424622298/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;1809359660/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;820905503/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;2224306677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;595789530/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1317884368/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;2029188156/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;612585676/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;79606901/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;2664873414/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;1965213309/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;3709953189/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;31757812/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;3979945578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;4084289374/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;1064623610/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;2298633738/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;1295846020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;1686457629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;888741420/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;459276445/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1826505669/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1981269113/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;28649763/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;1765515208/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;4124722036/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3701604498/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;4280983065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;4276577887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;3500031587/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;1985869762/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1201325015/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;1461015684/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;76739592/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;2628899863/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;3167093184/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1809110799/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;1058057599/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2292645629/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;1810447907/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;392587375/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;2072540828/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;987848086/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;2628500970/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;240224972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;820659454/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;3343049115/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3110368559/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;2370839513/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;3931163786/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;1558218719/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;27306893/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;1300506497/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;560865614/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;2830549456/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;2412285771/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;3060914214/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;790761677/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;346020847/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;748895675/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;1421978700/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;3222088647/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;3074030464/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;195082332/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3064469822/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_dKr4UCumEeyJjNOKZ7e9aA">
@@ -6224,14 +6224,14 @@ string in a program schedule time slot.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_dM_leiumEeyJjNOKZ7e9aA" name="ReliabilityVisualization">
-              <ownedComment xmi:id="_dW3TIyumEeyJjNOKZ7e9aA">
-                <body>ReliabilityVisualization creates the visualizations for
-the reliability analysis of the WARP program. &lt;p>
-
-CS2820 Fall 2021 Project: Implement this class to create
-the file visualization that is requested in WarpTester.
-
-@author sgoddard
+              <ownedComment xmi:id="_PXDb8DHeEeyBLonIa2KKjw">
+                <body>ReliabilityVisualization creates the visualizations for&#xD;
+the reliability analysis of the WARP program. &lt;p>&#xD;
+&#xD;
+CS2820 Fall 2021 Project: Implement this class to create&#xD;
+the file visualization that is requested in WarpTester.&#xD;
+&#xD;
+@author sgoddard&#xD;
  *</body>
               </ownedComment>
               <generalization xmi:id="_dUgitCumEeyJjNOKZ7e9aA" general="_dNacMCumEeyJjNOKZ7e9aA"/>
@@ -6247,11 +6247,13 @@ the file visualization that is requested in WarpTester.
               <ownedAttribute xmi:id="_dWCzwyumEeyJjNOKZ7e9aA" name="ra" visibility="private" type="_dM9wQCumEeyJjNOKZ7e9aA" association="_dXMDRyumEeyJjNOKZ7e9aA"/>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWm0fiumEeyJjNOKZ7e9aA" name="ReliabilityVisualization" specification="_dUf7oyumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWm0fyumEeyJjNOKZ7e9aA" name="warp" type="_dNdfgCumEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_dWm0gCumEeyJjNOKZ7e9aA" type="_dM_leiumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWm0gCumEeyJjNOKZ7e9aA" type="_dM_leiumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>super(new FileManager(), warp, SOURCE_SUFFIX);
-		this.warp = warp;
-		this.ra = warp.toReliabilityAnalysis();
+                <body>super(new FileManager(), warp, SOURCE_SUFFIX);&#xD;
+		this.warp = warp;&#xD;
+		this.ra = warp.toReliabilityAnalysis();&#xD;
 	</body>
               </ownedBehavior>
               <ownedOperation xmi:id="_dUf7oyumEeyJjNOKZ7e9aA" name="ReliabilityVisualization" visibility="package" method="_dWm0fiumEeyJjNOKZ7e9aA">
@@ -9524,8 +9526,8 @@ coordinator
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_dNjmICumEeyJjNOKZ7e9aA" name="WarpSystem">
-              <ownedComment xmi:id="_dW4hSyumEeyJjNOKZ7e9aA">
-                <body>@author sgoddard
+              <ownedComment xmi:id="_PXEqEDHeEeyBLonIa2KKjw">
+                <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
               <ownedAttribute xmi:id="_dWNy4CumEeyJjNOKZ7e9aA" name="program" visibility="private" type="_dMxjASumEeyJjNOKZ7e9aA" association="_dXPGkSumEeyJjNOKZ7e9aA"/>
@@ -9549,59 +9551,71 @@ coordinator
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
                 <ownedParameter xmi:id="_dWs7GyumEeyJjNOKZ7e9aA" name="choice" type="_dVZTgiumEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_dWs7HCumEeyJjNOKZ7e9aA" type="_dNjmICumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWs7HCumEeyJjNOKZ7e9aA" type="_dNjmICumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>this.workLoad = workLoad;
-		this.numChannels = numChannels;
-		createProgram(workLoad, numChannels, choice);
+                <body>this.workLoad = workLoad;&#xD;
+		this.numChannels = numChannels;&#xD;
+		createProgram(workLoad, numChannels, choice);&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7HSumEeyJjNOKZ7e9aA" name="toWorkload" specification="_dNkNMCumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWs7HiumEeyJjNOKZ7e9aA" type="_dN6LcCumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWs7HiumEeyJjNOKZ7e9aA" type="_dN6LcCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return workLoad;
+                <body>return workLoad;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7HyumEeyJjNOKZ7e9aA" name="toProgram" specification="_dNkNNCumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWs7ICumEeyJjNOKZ7e9aA" type="_dMxjASumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWs7ICumEeyJjNOKZ7e9aA" type="_dMxjASumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return program;
+                <body>return program;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7ISumEeyJjNOKZ7e9aA" name="toReliabilityAnalysis" specification="_dNk0QCumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWs7IiumEeyJjNOKZ7e9aA" type="_dM9wQCumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWs7IiumEeyJjNOKZ7e9aA" type="_dM9wQCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>ra = new ReliabilityAnalysis(program);
-		return ra;
+                <body>ra = new ReliabilityAnalysis(program);&#xD;
+		return ra;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7IyumEeyJjNOKZ7e9aA" name="toSimulator" specification="_dNk0RCumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWs7JCumEeyJjNOKZ7e9aA" type="_dNRSQCumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWs7JCumEeyJjNOKZ7e9aA" type="_dNRSQCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return null;
+                <body>return null;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7JSumEeyJjNOKZ7e9aA" name="reliabilitiesMet" specification="_dNlbUCumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWs7JiumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>if (ra == null) {
-			ra = new ReliabilityAnalysis(program);
-		} 
-		return ra.verifyReliabilities();
+                <body>if (ra == null) {&#xD;
+			ra = new ReliabilityAnalysis(program);&#xD;
+		} &#xD;
+		return ra.verifyReliabilities();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7JyumEeyJjNOKZ7e9aA" name="deadlinesMet" specification="_dNlbVSumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWs7KCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>Boolean result = true;
-		if (program.deadlineMisses().size() > 0) {
-			result = false;
-		}
-		return result;
+                <body>Boolean result = true;&#xD;
+		if (program.deadlineMisses().size() > 0) {&#xD;
+			result = false;&#xD;
+		}&#xD;
+		return result;&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWs7KSumEeyJjNOKZ7e9aA" name="createProgram" specification="_dVmu5yumEeyJjNOKZ7e9aA">
@@ -9611,60 +9625,69 @@ coordinator
                 </ownedParameter>
                 <ownedParameter xmi:id="_dWs7LCumEeyJjNOKZ7e9aA" name="choice" type="_dVZTgiumEeyJjNOKZ7e9aA"/>
                 <language>java</language>
-                <body>program = new Program(workLoad, numChannels, choice, verboseMode, latencyRequested);
-		
+                <body>program = new Program(workLoad, numChannels, choice, verboseMode, latencyRequested);&#xD;
+		&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiICumEeyJjNOKZ7e9aA" name="getNumFaults" specification="_dNmCYCumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWtiISumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return program.getNumFaults();
+                <body>return program.getNumFaults();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiIiumEeyJjNOKZ7e9aA" name="getMinPacketReceptionRate" specification="_dNmCZSumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWtiIyumEeyJjNOKZ7e9aA" type="_dVbIsCumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWtiIyumEeyJjNOKZ7e9aA" type="_dVbIsCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return workLoad.getMinPacketReceptionRate();
+                <body>return workLoad.getMinPacketReceptionRate();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiJCumEeyJjNOKZ7e9aA" name="getE2e" specification="_dNmCaSumEeyJjNOKZ7e9aA">
-                <ownedParameter xmi:id="_dWtiJSumEeyJjNOKZ7e9aA" type="_dVbIsCumEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_dWtiJSumEeyJjNOKZ7e9aA" type="_dVbIsCumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>return workLoad.getE2e();
+                <body>return workLoad.getE2e();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiJiumEeyJjNOKZ7e9aA" name="getName" specification="_dNmpciumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWtiJyumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return workLoad.getName();
+                <body>return workLoad.getName();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiKCumEeyJjNOKZ7e9aA" name="getSchedulerName" specification="_dNmpdyumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWtiKSumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return program.getSchedulerName();
+                <body>return program.getSchedulerName();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiKiumEeyJjNOKZ7e9aA" name="getNumTransmissions" specification="_dNmpfCumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWtiKyumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return program.getNumTransmissions();
+                <body>return program.getNumTransmissions();&#xD;
 	</body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dWtiLCumEeyJjNOKZ7e9aA" name="getOptimizationFlag" specification="_dNnQgyumEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_dWtiLSumEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
                 </ownedParameter>
                 <language>java</language>
-                <body>return program.getOptimizationFlag();
+                <body>return program.getOptimizationFlag();&#xD;
 	</body>
               </ownedBehavior>
               <ownedOperation xmi:id="_dNkNMCumEeyJjNOKZ7e9aA" name="toWorkload" method="_dWs7HSumEeyJjNOKZ7e9aA">
@@ -13732,10 +13755,11 @@ used to measure the graphs efficiency.
   <UMLLabProfile:Generics xmi:id="_dWWVwSumEeyJjNOKZ7e9aA" genericsValue="String" base_Element="_dWWVwCumEeyJjNOKZ7e9aA"/>
   <uml:OpaqueBehavior xmi:id="_dWs7FiumEeyJjNOKZ7e9aA" name="getNumChannels" specification="_dWOZ8CumEeyJjNOKZ7e9aA">
     <ownedParameter xmi:id="_dWs7FyumEeyJjNOKZ7e9aA" direction="return">
+      <name xsi:nil="true"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedParameter>
     <language>java</language>
-    <body>return numChannels;
+    <body>return numChannels;&#xD;
 	</body>
   </uml:OpaqueBehavior>
   <UMLLabProfile:Reference xmi:id="_dXF8oCumEeyJjNOKZ7e9aA" base_Element="_dXFVkCumEeyJjNOKZ7e9aA"/>
