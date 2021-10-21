@@ -42,15 +42,34 @@ import java.util.ArrayList;
  */
 
 public class ReliabilityAnalysis {
+   double e2e;
+   double minPacketReceptionRate;
+   Integer numFaults;
+   boolean isOne;
+	
+   public ReliabilityAnalysis (Program program) {
+	      // TODO Auto-generated constructor stub
+	   }
+   //ra kd = new ra()
+   public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
+	      // TODO implement this operation
+		  this.e2e = e2e;
+		  this.minPacketReceptionRate = minPacketReceptionRate;
+		  
+	      throw new UnsupportedOperationException("not implemented");
+	   }
+	   
+   public ReliabilityAnalysis (Integer numFaults) {
+	      // TODO implement this operation
+		  this.numFaults = numFaults; 
+		  
+	      throw new UnsupportedOperationException("not implemented");
+	   }
 
    public Boolean verifyReliabilities() {
       // TODO Auto-generated method stub
            return false;
        }
-   
-   public ReliabilityAnalysis (Program program) {
-      // TODO Auto-generated constructor stub
-      	}
    
    public ReliabilityTable getReliabilities() {
       // TODO implement this operation
@@ -72,14 +91,6 @@ public class ReliabilityAnalysis {
 	    return txArrayList;
    }
    
-   public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
    
-   public ReliabilityAnalysis (Integer numFaults) {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
    
-   }
+ }
