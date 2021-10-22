@@ -1,9 +1,9 @@
 package edu.uiowa.cs.warp;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Collections;
-import java.util.Vector;
+//import java.util.Vector;
 
 /**
  * ReliabilityAnalysis analyzes the end-to-end reliability
@@ -63,7 +63,7 @@ public class ReliabilityAnalysis {
 	      // TODO implement this operation
 		  this.e2e = e2e;
 		  this.minPacketReceptionRate = minPacketReceptionRate;
-		  this.whichResult = true;
+		  whichResult = true;
 		  
 	      //throw new UnsupportedOperationException("not implemented");
 	   }
@@ -73,7 +73,7 @@ public class ReliabilityAnalysis {
 		  this.numFaults = numFaults; 
 		  this.e2e = DEFAULT_E2E;
 		  this.minPacketReceptionRate = DEFAULT_MIN_PACKET_RECEPTION_RATE;
-		  this.whichResult = false;
+		  whichResult = false;
 		  
 	      //throw new UnsupportedOperationException("not implemented");
 	   }
@@ -125,7 +125,7 @@ public class ReliabilityAnalysis {
 	        reliabilityWindow.add(newReliabilityRow); // now add row to the reliability window, Time 0
 	        ReliabilityRow tmpVector = reliabilityWindow.get(0);
 	        var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);
-	        ArrayList<Double> currentReliabilityRowArrayList = new ArrayList<>();
+	        ReliabilityRow currentReliabilityRowArrayList = new ReliabilityRow();
 	        Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);
 	        // Want reliabilityWindow[0][0] = 1.0 (i.e., P(packet@FlowSrc) = 1
 	        // So, we initialize this first entry to 1.0, wich is reliabilityWindow[0][0]
@@ -135,7 +135,7 @@ public class ReliabilityAnalysis {
 	        //currentReliabilityRow[0] = 1.0; // initialize (i.e., P(packet@FlowSrc) = 1
 	        Double e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1); // the analysis will end
 	                                                                              // when the 2e2
-	                                                                              // reliability metrix is
+	                                                                              // reliability matrix is
 	                                                                              // met, initially the
 	                                                                              // state is not met and
 	                                                                              // will be 0 with this
@@ -145,6 +145,7 @@ public class ReliabilityAnalysis {
 	                                            // we don't know how long this schedule window will last
 	          var prevReliabilityRow = currentReliabilityRowArrayList;
 	          currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
+	          currentReliabilityRowArrayList.clear();
 	          Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);                                                                                        // be
 	                                                                                                   // reliabilityWindow[timeSlot]
 	                                                                                                   // if
@@ -229,8 +230,11 @@ public class ReliabilityAnalysis {
 	          e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1);
 	          ReliabilityRow currentReliabilityVector = new ReliabilityRow();
 	          // convert the row to a vector so we can add it to the reliability window
+	          
 	          //REMINDER THIS IS WHERE WE LEFT OFF need to change the .addAll
-	          Collections.addAll(currentReliabilityVector, currentReliabilityRow);
+	          currentReliabilityVector = currentReliabilityRowArrayList;
+	          //Collections.addAll(currentReliabilityVector, currentReliabilityRowArrayList);
+	          
 	          if (timeSlot < reliabilityWindow.size()) {
 	            reliabilityWindow.set(timeSlot, (currentReliabilityVector));
 	          } else {
@@ -246,14 +250,30 @@ public class ReliabilityAnalysis {
 	        // Now convert the array to the ArrayList needed to return
 	        //ArrayList<Integer> nPushesArrayList = new ArrayList<Integer>();
 	        //Collections.addAll(nPushesArrayList, nPushes);
-	        return nPushes;
+	        return nPushes; 	
 	    	
+	    }else{//END OF IF
+	    	var nodesInFlow = flow.nodes;
+	        var nNodesInFlow = nodesInFlow.size();
+	        ArrayList<Integer> txArrayList = new ArrayList<Integer>();
+	        /*
+	         * Each node will have at most numFaults+1 transmissions. Because we don't know which nodes will
+	         * send the message over an edge, we give the cost to each node.
+	         */
+	        for (int i = 0; i < nNodesInFlow; i++) {
+	          txArrayList.add(numFaults + 1);
+	        }
+	        /*
+	         * now compute the maximum # of TX, assuming at most numFaults occur on an edge per period, and
+	         * each edge requires at least one successful TX.
+	         */
+	        var numEdgesInFlow = nNodesInFlow - 1;
+	        var maxFaultsInFlow = numEdgesInFlow * numFaults;
+	        txArrayList.add(numEdgesInFlow + maxFaultsInFlow);
+	        return txArrayList;
 	    	
-	    	
-	    	
-	    	
-	    	
-	    }//END OF IF
+	   
+	    }//END OF ELSE
    }
    
    
