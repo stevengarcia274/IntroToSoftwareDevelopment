@@ -78,16 +78,34 @@ public class ReliabilityAnalysis {
 	      //throw new UnsupportedOperationException("not implemented");
 	   }
 
+   /**
+    * 
+    * @return Boolean
+    */
    public Boolean verifyReliabilities() {
       // TODO Auto-generated method stub
            return false;
        }
    
+   /**
+    * 
+    * @return ReliabilityTable
+    */
    public ReliabilityTable getReliabilities() {
       // TODO implement this operation
       throw new UnsupportedOperationException("not implemented");
    }
    
+   /**
+    * Public function designed to return an ArrayList, representing a flow's 
+    * numTxPerLinkAndTotalCost, results are meant to vary depending on the
+    * instance of the ReliabilityAnalysis object that is created.
+    * 
+    * @param flow Name of the flow that calculations should be done on
+    * @return An ArrayList of Integers that either represents the 
+    *         FixedTxPerLinkAndTotalTxCost or nTxPerLinkAndTotalTxCost depending
+    *         on the parameters feed into the ReliabilityAnalysis constructor
+    */
    public ArrayList<Integer> numTxPerLinkAndTotalCost(Flow flow) {
 	    if(whichResult == true) {
 	    	var nodesInFlow = flow.nodes;
