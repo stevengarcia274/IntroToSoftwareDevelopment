@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_KvSQ0CuiEeyJjNOKZ7e9aA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_KvS34CuiEeyJjNOKZ7e9aA" source="codegen">
         <details xmi:id="_KvS34SuiEeyJjNOKZ7e9aA" key="codegenDirectory" value="/cs2820-fall21/src"/>
-        <details xmi:id="_L_ulACuiEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;2633489473/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;3634548837/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;3305092594/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;3238489715/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;1571938740/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1941462046/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;3978818808/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;3059989203/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;3754377617/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;492899634/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;2596849957/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;1242144003/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;2522714670/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;1457286001/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;3735737588/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;4234899521/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;1071888484/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;2126849807/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;937049578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;3408505142/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;1106993157/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1745026972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1243472081/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;1334945632/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;387408079/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;3646556153/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3057078727/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;284938601/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;3080876127/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;349151360/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;2380932822/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1770485609/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;4243004560/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;2065273961/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;1776494724/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;1507366706/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1976749484/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;3195166460/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2918095589/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;1810447907/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;2571131140/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;3413533457/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;3263525257/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;3152618411/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;970860350/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;2579980776/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3699590899/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;3537725478/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;876440066/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;3961720827/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;2577872269/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;4035723989/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;3033941422/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;3708356065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;823199562/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;614271873/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;195958787/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;4000167019/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;748895675/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;631014940/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;4037389838/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;2731869887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;463897055/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;2148312765/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;2451757979/1;"/>
+        <details xmi:id="_L_ulACuiEeyJjNOKZ7e9aA" key="AssociatedSourceCode" value="/cs2820-fall21/src/edu/uiowa/cs/warp/AbstractMap.java;2633489473/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activation.java;3634548837/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Activations.java;3305092594/1;/cs2820-fall21/src/edu/uiowa/cs/warp/BasicPoset.java;3238489715/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Channels.java;1571938740/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CodeFragment.java;1941462046/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CombinedActivation.java;3978818808/1;/cs2820-fall21/src/edu/uiowa/cs/warp/CommunicationGraph.java;3059989203/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ConnectivityPoset.java;3754377617/1;/cs2820-fall21/src/edu/uiowa/cs/warp/DeadlineComparator.java;492899634/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Description.java;2596849957/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Edge.java;1242144003/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FileManager.java;2522714670/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Flow.java;1457286001/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowMap.java;3735737588/1;/cs2820-fall21/src/edu/uiowa/cs/warp/FlowNodeToActivationMap.java;4234899521/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphViz.java;1071888484/1;/cs2820-fall21/src/edu/uiowa/cs/warp/GraphVizListener.java;2126849807/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InputGraphFile.java;937049578/1;/cs2820-fall21/src/edu/uiowa/cs/warp/InstructionTimeSlot.java;3408505142/1;/cs2820-fall21/src/edu/uiowa/cs/warp/LatestReleaseTimeComparator.java;1106993157/1;/cs2820-fall21/src/edu/uiowa/cs/warp/MaxPhaseComparator.java;1745026972/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Node.java;1243472081/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NodeMap.java;1334945632/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NonPreemptiveSchedule.java;387408079/1;/cs2820-fall21/src/edu/uiowa/cs/warp/NotImplentedVisualization.java;3646556153/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PeriodComparator.java;3057078727/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Poset.java;284938601/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PreemptiveSchedule.java;3080876127/1;/cs2820-fall21/src/edu/uiowa/cs/warp/PriorityComparator.java;349151360/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Program.java;2380932822/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramSchedule.java;1770485609/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ProgramVisualization.java;4243004560/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeComparator.java;2065273961/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReleaseTimeQueue.java;1776494724/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityAnalysis.java;3966881020/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityParameters.java;1976749484/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityRow.java;3195166460/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityTable.java;2918095589/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReliabilityVisualization.java;1810447907/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ReportVisualization.java;2571131140/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Row.java;3413533457/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObjectQueue.java;3263525257/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Schedule.java;3152618411/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTable.java;970860350/1;/cs2820-fall21/src/edu/uiowa/cs/warp/ScheduleTime.java;2579980776/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SimulatorInput.java;3699590899/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SortedPeriodQueue.java;3537725478/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemAttributes.java;876440066/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SystemFactory.java;3961720827/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Table.java;2577872269/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Visualization.java;4035723989/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationFactory.java;3033941422/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationImplementation.java;3708356065/1;/cs2820-fall21/src/edu/uiowa/cs/warp/VisualizationObject.java;823199562/1;/cs2820-fall21/src/edu/uiowa/cs/warp/Warp.java;614271873/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadListener.java;195958787/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpPoset.java;4000167019/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpSystem.java;748895675/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpTester.java;631014940/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoad.java;3239803475/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadDescription.java;2731869887/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WarpDSL.java;463897055/1;/cs2820-fall21/src/edu/uiowa/cs/warp/WorkLoadTest.java;2148312765/1;/cs2820-fall21/src/edu/uiowa/cs/warp/SchedulableObject.java;2451757979/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_OEWUQDXLEeyzKPzbxOg4Ww" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_OEWUQTXLEeyzKPzbxOg4Ww" source="com.yattasolutions.codegen.reverse">
@@ -534,37 +534,37 @@
                 <ownedParameter xmi:id="_LveigSuiEeyJjNOKZ7e9aA" type="_LlLXACuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlNzQCuiEeyJjNOKZ7e9aA" name="getEdgesByReleaseTime" method="_Lyuq0CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXIzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmooDd2EeykP74baAFnvg">
                   <body>@return the edgesByReleaseTime</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LveigiuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlOaUCuiEeyJjNOKZ7e9aA" name="getEdgesByLatestReleaseTime" method="_Lyuq0iuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXJDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmooTd2EeykP74baAFnvg">
                   <body>@return the edgesByReleaseTime</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LveigyuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlOaUiuiEeyJjNOKZ7e9aA" name="getEdgesByPeriod" method="_Lyuq1CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXJTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoojd2EeykP74baAFnvg">
                   <body>@return the edgesByPeriod</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LveihCuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlPBYSuiEeyJjNOKZ7e9aA" name="getEdgesByDeadline" method="_Lyuq1iuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXJjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoozd2EeykP74baAFnvg">
                   <body>@return the edgesByDeadline</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LveihSuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlPocSuiEeyJjNOKZ7e9aA" name="getEdgesByPriority" method="_Lyuq2CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXJzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmopDd2EeykP74baAFnvg">
                   <body>@return the edgesByPriority</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LveihiuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlQ2kCuiEeyJjNOKZ7e9aA" name="increaseEdgePhases" method="_Lyuq3iuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrBXKDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmopTd2EeykP74baAFnvg">
                   <body>Increase the phase of each edge by the input parameter.&#xD;
 	 * &#xD;
 	 * @param additionalOffset</body>
@@ -574,7 +574,7 @@
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlRdoCuiEeyJjNOKZ7e9aA" name="updatePriorityAndRelease" method="_Lyuq4CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-MDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmopjd2EeykP74baAFnvg">
                   <body>Updates priority and release time of &#xD;
 	 * this activation.&lt;br>&#xD;
 	 * &#xD;
@@ -601,7 +601,7 @@
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlSEsCuiEeyJjNOKZ7e9aA" name="getNextScheduleTime" method="_LyvR5iuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-MjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoqDd2EeykP74baAFnvg">
                   <body>getNextScheduleTime returns the next entry in the additional&#xD;
 	 * schedule time array list whose start time is greater than the input&#xD;
 	 * parameter time. MAX_INT is returned if such a time&#xD;
@@ -616,7 +616,7 @@
                 <ownedParameter xmi:id="_LveiiSuiEeyJjNOKZ7e9aA" type="_Lm2K8CuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlSEsiuiEeyJjNOKZ7e9aA" name="getMatchingEndTime" method="_LyvR6SuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-MzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoqTd2EeykP74baAFnvg">
                   <body>getMatchingEndTime returns the next end time in the additional&#xD;
 	 * schedule time array list that is greater than the input&#xD;
 	 * parameter time. MAX_INT is returned if such a time&#xD;
@@ -633,7 +633,7 @@
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlSEtSuiEeyJjNOKZ7e9aA" name="getNextStartTime" method="_LyvR7CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-NDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoqjd2EeykP74baAFnvg">
                   <body>getNextStartTime returns the next start time in the additional&#xD;
 	 * schedule time array list that is greater than the input&#xD;
 	 * parameter time. MAX_INT is returned if such a time&#xD;
@@ -650,7 +650,7 @@
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlSrwCuiEeyJjNOKZ7e9aA" name="getNextEndTime" method="_LyvR7yuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-NTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoqzd2EeykP74baAFnvg">
                   <body>getNextEndTime returns the next end time in the additional&#xD;
 	 * schedule time array list that is greater than the input&#xD;
 	 * parameter time. MAX_INT is returned if such a time&#xD;
@@ -672,7 +672,7 @@
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlSrxSuiEeyJjNOKZ7e9aA" name="getDelta" method="_Lyv48CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-NjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmorDd2EeykP74baAFnvg">
                   <body>Returns the maximum number of transmissions&#xD;
 	 * needed on any link in activation to ensure e2e &#xD;
 	 * reliability is met.</body>
@@ -748,7 +748,7 @@
                 <ownedParameter xmi:id="_Lw9wQiuiEeyJjNOKZ7e9aA" name="coordinators" type="_LvctUCuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Lw-XUCuiEeyJjNOKZ7e9aA" name="addScheduleTimes" method="_LyvR5CuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-MTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmopzd2EeykP74baAFnvg">
                   <body>@param additionalScheduleTimes</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Lw-XUSuiEeyJjNOKZ7e9aA" name="scheduleTime" type="_LvctUCuiEeyJjNOKZ7e9aA"/>
@@ -762,7 +762,7 @@
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LlW9MCuiEeyJjNOKZ7e9aA" name="BasicPoset">
-              <ownedComment xmi:id="_Pq9FsDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fmorTd2EeykP74baAFnvg">
                 <body>ConnectivityPoset extends Poset by selecting&#xD;
 primary coordinator in the flow based on highest&#xD;
 local connectivity.&#xD;
@@ -788,7 +788,7 @@ local connectivity.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LlW9MSuiEeyJjNOKZ7e9aA" name="Channels">
-              <ownedComment xmi:id="_Pq9FsTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fmorjd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -1318,14 +1318,14 @@ local connectivity.&#xD;
                 <eAnnotations xmi:id="_LlbOoSuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LlbOoiuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq9FsjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmorzd2EeykP74baAFnvg">
                   <body>Constructor generates a SLEEP instruction for the&#xD;
 	 * code fragment.</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LlbOoyuiEeyJjNOKZ7e9aA" type="_LlankCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Llb1sCuiEeyJjNOKZ7e9aA" name="getCoordinator" method="_LyxHGiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9FtDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmosTd2EeykP74baAFnvg">
                   <body>@return the coordinator</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Llb1sSuiEeyJjNOKZ7e9aA" direction="return">
@@ -1333,13 +1333,13 @@ local connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Llb1siuiEeyJjNOKZ7e9aA" name="instructions" method="_LyxHHCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9FtTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmosjd2EeykP74baAFnvg">
                   <body>@return the codeFragment</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxBaoCuiEeyJjNOKZ7e9aA" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlccwCuiEeyJjNOKZ7e9aA" name="size" method="_LyxHHiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9FtjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmoszd2EeykP74baAFnvg">
                   <body>@return the size</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LlccwSuiEeyJjNOKZ7e9aA" direction="return">
@@ -1434,7 +1434,7 @@ local connectivity.&#xD;
                 <eAnnotations xmi:id="_LxAzkiuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LxAzkyuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq9FszXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fmosDd2EeykP74baAFnvg">
                   <body>Constructor generates DSL instructions to transmit&#xD;
 	 * the data over edges using the coordinator and channel&#xD;
 	 * to determine the type of instruction and delta to &#xD;
@@ -1579,7 +1579,7 @@ local connectivity.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LlguMCuiEeyJjNOKZ7e9aA" name="CommunicationGraph">
-              <ownedComment xmi:id="_Pq9FtzXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fnPsDd2EeykP74baAFnvg">
                 <body>@author sgoddard2&#xD;
  *</body>
               </ownedComment>
@@ -1741,7 +1741,7 @@ local connectivity.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LljxgCuiEeyJjNOKZ7e9aA" name="ConnectivityPoset">
-              <ownedComment xmi:id="_Pq9FuDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fnPsTd2EeykP74baAFnvg">
                 <body>ConnectivityPoset extends Poset by selecting&#xD;
 primary coordinator in the flow based on highest&#xD;
 global connectivity.&#xD;
@@ -1821,7 +1821,7 @@ global connectivity.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LllmsCuiEeyJjNOKZ7e9aA" name="Description">
-              <ownedComment xmi:id="_Pq9FuTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fnPsjd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -2065,7 +2065,7 @@ global connectivity.&#xD;
               </nestedClassifier>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LlqfMCuiEeyJjNOKZ7e9aA" name="FileManager">
-              <ownedComment xmi:id="_Pq9swDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fnPszd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -2266,7 +2266,7 @@ global connectivity.&#xD;
                 <eAnnotations xmi:id="_LlrGQSuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LlrGQiuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq9swTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPtDd2EeykP74baAFnvg">
                   <body>@param args</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LlrGQyuiEeyJjNOKZ7e9aA" type="_LlqfMCuiEeyJjNOKZ7e9aA" direction="return"/>
@@ -2291,7 +2291,7 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlrtVyuiEeyJjNOKZ7e9aA" name="createFile" method="_Ly0KaSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9swjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPtTd2EeykP74baAFnvg">
                   <body>Build the name extension used for all files created by this tool.&#xD;
 	 * The nameExtension will be added to the base input file name&#xD;
 	 * so that all of the output files can be associated with the input file&#xD;
@@ -2356,7 +2356,7 @@ global connectivity.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LltigCuiEeyJjNOKZ7e9aA" name="Flow">
-              <ownedComment xmi:id="_Pq9swzXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fnPtjd2EeykP74baAFnvg">
                 <body>Represents a Flow which is a chain of nodes and edges that carries data between sensors, controllers and actuators&#xD;
 @author sgoddard&#xD;
  *</body>
@@ -2580,7 +2580,7 @@ global connectivity.&#xD;
                 <eAnnotations xmi:id="_LluJlCuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LluJlSuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq9sxDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPtzd2EeykP74baAFnvg">
                   <body>Constructor that initializes a flow and sets the name, priority, and index according to given parameters&#xD;
      * @param name Flow's name&#xD;
      * @param priority Flow's system-wide priority&#xD;
@@ -2601,13 +2601,13 @@ global connectivity.&#xD;
                 <eAnnotations xmi:id="_LluwoCuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LluwoSuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq9sxTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPuDd2EeykP74baAFnvg">
                   <body>Constructor for a Flow without parameters, initializes a Flow with default values</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LluwoiuiEeyJjNOKZ7e9aA" type="_LltigCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LluwoyuiEeyJjNOKZ7e9aA" name="getInitialPriority" method="_Ly0xdyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9sxjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPuTd2EeykP74baAFnvg">
                   <body>@return the initialPriority</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LluwpCuiEeyJjNOKZ7e9aA" direction="return">
@@ -2615,7 +2615,7 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LluwpSuiEeyJjNOKZ7e9aA" name="getIndex" method="_Ly0xeSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9sxzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPujd2EeykP74baAFnvg">
                   <body>@return the index</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LluwpiuiEeyJjNOKZ7e9aA" direction="return">
@@ -2623,7 +2623,7 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LluwpyuiEeyJjNOKZ7e9aA" name="getNumTxPerLink" method="_Ly0xeyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9syDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPuzd2EeykP74baAFnvg">
                   <body>@return the numTxPerLink</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LluwqCuiEeyJjNOKZ7e9aA" direction="return">
@@ -2631,25 +2631,25 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LluwqSuiEeyJjNOKZ7e9aA" name="getNodes" method="_Ly0xfSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9syTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPvDd2EeykP74baAFnvg">
                   <body>@return the nodes</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxIIUCuiEeyJjNOKZ7e9aA" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LlvXsSuiEeyJjNOKZ7e9aA" name="getEdges" method="_Ly0xfyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9syjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPvTd2EeykP74baAFnvg">
                   <body>@return the nodes</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxIIUSuiEeyJjNOKZ7e9aA" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Llv-wSuiEeyJjNOKZ7e9aA" name="getLinkTxAndTotalCost" method="_Ly1YgiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9szTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPwDd2EeykP74baAFnvg">
                   <body>@return the linkTxAndTotalCost</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxIIUiuiEeyJjNOKZ7e9aA" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Llwl0SuiEeyJjNOKZ7e9aA" name="setInitialPriority" method="_Ly1YhCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9szjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPwTd2EeykP74baAFnvg">
                   <body>@param initialPriority the initialPriority to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Llwl0iuiEeyJjNOKZ7e9aA" name="initialPriority">
@@ -2657,7 +2657,7 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Llwl0yuiEeyJjNOKZ7e9aA" name="setIndex" method="_Ly1YhiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9szzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPwjd2EeykP74baAFnvg">
                   <body>@param index the index to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Llwl1CuiEeyJjNOKZ7e9aA" name="index">
@@ -2665,7 +2665,7 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LlxM4CuiEeyJjNOKZ7e9aA" name="setNumTxPerLink" method="_Ly1YiCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9s0DXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPwzd2EeykP74baAFnvg">
                   <body>@param numTxPerLink the numTxPerLink to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LlxM4SuiEeyJjNOKZ7e9aA" name="numTxPerLink">
@@ -2678,14 +2678,14 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Lvsk8CuiEeyJjNOKZ7e9aA" name="addEdge" method="_Ly0xgSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9syzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPvjd2EeykP74baAFnvg">
                   <body>Add and edge to the flow.&#xD;
 	 * @param edge An edge to add</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Lvsk8SuiEeyJjNOKZ7e9aA" name="edge" type="_Llm00iuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Lvsk8iuiEeyJjNOKZ7e9aA" name="addNode" method="_Ly1YgCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq9szDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fnPvzd2EeykP74baAFnvg">
                   <body>Add and edge to the flow.&#xD;
 	 * @param node A node to add</body>
                 </ownedComment>
@@ -2698,20 +2698,20 @@ global connectivity.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LxIIUyuiEeyJjNOKZ7e9aA" name="setNodes" method="_Ly1YiiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-T0DXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2wDd2EeykP74baAFnvg">
                   <body>@param nodes the nodes to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxIvYCuiEeyJjNOKZ7e9aA" name="nodes" type="_LvctUCuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LxIvYiuiEeyJjNOKZ7e9aA" name="setLinkTxAndTotalCost" method="_Ly1YjCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-T0TXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2wTd2EeykP74baAFnvg">
                   <body>@param linkTxAndTotalCost the linkTxAndTotalCost to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxIvYyuiEeyJjNOKZ7e9aA" name="linkTxAndTotalCost" type="_LvctUCuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LlzpICuiEeyJjNOKZ7e9aA" name="FlowMap">
-              <ownedComment xmi:id="_Pq-T0jXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2wjd2EeykP74baAFnvg">
                 <body>FlowMap creates a mapping from flow name to &#xD;
 flow object (&lt;name, Flow>).&#xD;
 &#xD;
@@ -2725,7 +2725,7 @@ flow object (&lt;name, Flow>).&#xD;
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Ll0QMCuiEeyJjNOKZ7e9aA" name="FlowNodeToActivationMap">
-              <ownedComment xmi:id="_Pq-T0zXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2wzd2EeykP74baAFnvg">
                 <body>FlowNodeToActivationMap creates a mapping from flow node  &#xD;
 to an activation (&lt;Node, Activation>).&#xD;
 &#xD;
@@ -2739,7 +2739,7 @@ to an activation (&lt;Node, Activation>).&#xD;
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Ll03QCuiEeyJjNOKZ7e9aA" name="GraphViz">
-              <ownedComment xmi:id="_Pq-T1DXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2xDd2EeykP74baAFnvg">
                 <body>@author sgoddard2&#xD;
 Copyright Â© 2020 Steve Goddard. All rights reserved.&#xD;
  *</body>
@@ -2933,7 +2933,7 @@ Copyright Â© 2020 Steve Goddard. All rights reserved.&#xD;
               </ownedOperation>
               <ownedOperation xmi:id="_Ll2FYiuiEeyJjNOKZ7e9aA" name="finalizeGraphVizContent" method="_Ly2mqSuiEeyJjNOKZ7e9aA"/>
               <ownedOperation xmi:id="_Ll2FYyuiEeyJjNOKZ7e9aA" name="getGraphVizContent" method="_Ly2mqiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-T1TXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2xTd2EeykP74baAFnvg">
                   <body>public function to return the string gvFileContents.&#xD;
      * designed to be called after finalizeGraphVizContent() is called by the listener&#xD;
      * but will return the current state of the contents string anytime it is called</body>
@@ -2996,7 +2996,7 @@ Copyright Â© 2020 Steve Goddard. All rights reserved.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Ll36kCuiEeyJjNOKZ7e9aA" name="GraphVizListener" isLeaf="true">
-              <ownedComment xmi:id="_Pq-T1jXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2xjd2EeykP74baAFnvg">
                 <body>Extend WARP Base Listener Class to extract info for Graph Viz file.&#xD;
 GraphVizListener reads the graphFile string and calls the functions&#xD;
 in this class, as it walks the input graphFile structure to build&#xD;
@@ -3109,7 +3109,7 @@ the GraphViz contents.</body>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Ll5IsCuiEeyJjNOKZ7e9aA" name="InputGraphFile">
-              <ownedComment xmi:id="_Pq-T1zXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2xzd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -3600,7 +3600,7 @@ the GraphViz contents.</body>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmC5sCuiEeyJjNOKZ7e9aA" name="NodeMap">
-              <ownedComment xmi:id="_Pq-T2DXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2yDd2EeykP74baAFnvg">
                 <body>NodeMap creates a mapping from graph node name to &#xD;
 node object (name, Node).&#xD;
 &#xD;
@@ -3614,7 +3614,7 @@ node object (name, Node).&#xD;
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmC5sSuiEeyJjNOKZ7e9aA" name="NonPreemptiveSchedule">
-              <ownedComment xmi:id="_Pq-64DXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2yTd2EeykP74baAFnvg">
                 <body>PreemptiveSchedule is an instance of the abstract class Schedule.&#xD;
 &#xD;
 @author sgoddard2&#xD;
@@ -3726,7 +3726,7 @@ node object (name, Node).&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmF9ASuiEeyJjNOKZ7e9aA" name="Poset" isAbstract="true">
-              <ownedComment xmi:id="_Pq-64TXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fn2yjd2EeykP74baAFnvg">
                 <body>Poset is a partially ordered set of activations&#xD;
 that are partitions of the workload to be scheduled.&#xD;
 This version assumes each activation is a node&#xD;
@@ -4217,7 +4217,7 @@ a transmitter or sender for that edge.&#xD;
               </ownedOperation>
               <ownedOperation xmi:id="_LmJnYCuiEeyJjNOKZ7e9aA" name="orderActivations" method="_Ly6RECuiEeyJjNOKZ7e9aA"/>
               <ownedOperation xmi:id="_LmJnYSuiEeyJjNOKZ7e9aA" name="getNextActivation" method="_Ly6RESuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-65DXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2zTd2EeykP74baAFnvg">
                   <body>getNextActivation returns the highest priority&#xD;
 	 * partition that has been released at or before input&#xD;
 	 * parameter time.&#xD;
@@ -4228,7 +4228,7 @@ a transmitter or sender for that edge.&#xD;
                 <ownedParameter xmi:id="_Lv9DoCuiEeyJjNOKZ7e9aA" type="_LlLXACuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LmJnYiuiEeyJjNOKZ7e9aA" name="findBaseStation" visibility="protected" method="_Ly6RFSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-65jXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fod0Td2EeykP74baAFnvg">
                   <body>findBaseStation is used by algorithms that generate the&#xD;
 	 * partially ordered set of activations using a base station. &#xD;
 	 * This method searches the set of flows to find the node that&#xD;
@@ -4245,7 +4245,7 @@ a transmitter or sender for that edge.&#xD;
                 <eAnnotations xmi:id="_Lv8ckCuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_Lv8ckSuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_Pq-64jXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2yzd2EeykP74baAFnvg">
                   <body>Partition types:&#xD;
 	 *  &#xD;
 	 *  by node--each node is a partition using only one channel&#xD;
@@ -4271,7 +4271,7 @@ a transmitter or sender for that edge.&#xD;
                 <ownedParameter xmi:id="_Lv8cmSuiEeyJjNOKZ7e9aA" type="_LlLXACuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_Lv9DoSuiEeyJjNOKZ7e9aA" name="addActivation" method="_Ly6REyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-65TXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fod0Dd2EeykP74baAFnvg">
                   <body>addElemement adds the partitionElement to the priority queue&#xD;
 	 * &#xD;
 	 * @param activation</body>
@@ -4279,7 +4279,7 @@ a transmitter or sender for that edge.&#xD;
                 <ownedParameter xmi:id="_Lv9DoiuiEeyJjNOKZ7e9aA" name="activation" type="_LlLXACuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LxRSQCuiEeyJjNOKZ7e9aA" name="findCoordinator" visibility="protected" method="_Ly5qBSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq-64zXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fn2zDd2EeykP74baAFnvg">
                   <body>*&#xD;
 	 * @param nodesInFlow&#xD;
 	 * @return the node in the flow with highest local connectivity.</body>
@@ -4298,7 +4298,7 @@ a transmitter or sender for that edge.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmMDoCuiEeyJjNOKZ7e9aA" name="PreemptiveSchedule">
-              <ownedComment xmi:id="_Pq-65zXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod0jd2EeykP74baAFnvg">
                 <body>PreemptiveSchedule extends Schedule to build a preemptive, &#xD;
 priority schedule for the Poset using numChannels. &#xD;
 &#xD;
@@ -4743,7 +4743,7 @@ priority schedule for the Poset using numChannels. &#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmQVECuiEeyJjNOKZ7e9aA" name="Program">
-              <ownedComment xmi:id="_PrAwHTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod0zd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -6107,7 +6107,7 @@ priority schedule for the Poset using numChannels. &#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmdwcCuiEeyJjNOKZ7e9aA" name="ProgramVisualization">
-              <ownedComment xmi:id="_Pq-66TXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod1Dd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -6262,7 +6262,7 @@ priority schedule for the Poset using numChannels. &#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmjQACuiEeyJjNOKZ7e9aA" name="ReliabilityAnalysis">
-              <ownedComment xmi:id="_Pq-66jXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_0tz_UDd2EeykP74baAFnvg">
                 <body>ReliabilityAnalysis analyzes the end-to-end reliability&#xD;
 of messages transmitted in flows for the WARP system. &lt;p>&#xD;
  &#xD;
@@ -6342,45 +6342,49 @@ string in a program schedule time slot.&#xD;
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PqwRYDXLEeyzKPzbxOg4Ww" name="ReliabilityAnalysis" specification="_Posb4DXLEeyzKPzbxOg4Ww">
                 <ownedParameter xmi:id="_PqwRYTXLEeyzKPzbxOg4Ww" name="e2e" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
                 <ownedParameter xmi:id="_PqwRYjXLEeyzKPzbxOg4Ww" name="minPacketReceptionRate" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_PqwRYzXLEeyzKPzbxOg4Ww" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_PqwRYzXLEeyzKPzbxOg4Ww" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>// TODO implement this operation&#xD;
-		  this.e2e = e2e;&#xD;
+                <body>this.e2e = e2e;&#xD;
 		  this.minPacketReceptionRate = minPacketReceptionRate;&#xD;
 		  whichResult = true;&#xD;
 		  &#xD;
-	      //throw new UnsupportedOperationException(&quot;not implemented&quot;);&#xD;
+	      &#xD;
 	   </body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pqw4cDXLEeyzKPzbxOg4Ww" name="ReliabilityAnalysis" specification="_PqLCkDXLEeyzKPzbxOg4Ww">
                 <ownedParameter xmi:id="_Pqw4cTXLEeyzKPzbxOg4Ww" name="numFaults">
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
-                <ownedParameter xmi:id="_Pqw4cjXLEeyzKPzbxOg4Ww" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_Pqw4cjXLEeyzKPzbxOg4Ww" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
-                <body>// TODO implement this operation&#xD;
-		  this.numFaults = numFaults; &#xD;
+                <body>this.numFaults = numFaults; &#xD;
 		  this.e2e = DEFAULT_E2E;&#xD;
 		  this.minPacketReceptionRate = DEFAULT_MIN_PACKET_RECEPTION_RATE;&#xD;
 		  whichResult = false;&#xD;
 		  &#xD;
-	      //throw new UnsupportedOperationException(&quot;not implemented&quot;);&#xD;
 	   </body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pqw4czXLEeyzKPzbxOg4Ww" name="numTxPerLinkAndTotalCost" specification="_PotC8DXLEeyzKPzbxOg4Ww">
                 <ownedParameter xmi:id="_Pqw4dDXLEeyzKPzbxOg4Ww" name="flow" type="_LltigCuiEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_Pqw4dTXLEeyzKPzbxOg4Ww" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_Pqw4dTXLEeyzKPzbxOg4Ww" type="_LvctUCuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>if(whichResult == true) {&#xD;
 	    	var nodesInFlow = flow.nodes;&#xD;
 	        var nNodesInFlow = nodesInFlow.size(); // The last entry will contain the worst-case cost of&#xD;
 	                                               // transmitting E2E in isolation&#xD;
-	        // var nPushes = Array(repeating: 0, count: nNodesInFlow+1);&#xD;
 	        var nPushes = new ArrayList&lt;Integer>(nNodesInFlow + 1);//OUR CODE&#xD;
-	        //var nPushes = new Integer[nNodesInFlow + 1];  // Array to track nPushes for each node in this&#xD;
+	          											// Array to track nPushes for each node in this&#xD;
 	                                                     // flow (same as nTx per link)&#xD;
-	        Collections.fill(nPushes, 0);//OUR CODE &#xD;
-	        //Arrays.fill(nPushes, 0); // initialize to all 0 values&#xD;
+	        &#xD;
+	        for(int i = 0; i &lt; nNodesInFlow+1; i++) {&#xD;
+	        	nPushes.add(0);&#xD;
+	        } // initialize to all 0 values&#xD;
 	        var nHops = nNodesInFlow - 1;&#xD;
 	        // minLinkReliablityNeded is the minimum reliability needed per link in a flow to hit E2E&#xD;
 	        // reliability for the flow&#xD;
@@ -6405,16 +6409,15 @@ string in a program schedule time slot.&#xD;
 	          newReliabilityRow.add(0.0); // create the the row initialized with 0.0 values&#xD;
 	        }&#xD;
 	        reliabilityWindow.add(newReliabilityRow); // now add row to the reliability window, Time 0&#xD;
-	        ReliabilityRow tmpVector = reliabilityWindow.get(0);&#xD;
-	        var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);&#xD;
+	        ReliabilityRow tmpVector = reliabilityWindow.get(0);;&#xD;
 	        ReliabilityRow currentReliabilityRowArrayList = new ReliabilityRow();&#xD;
-	        Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);&#xD;
+	        currentReliabilityRowArrayList.addAll(tmpVector);&#xD;
 	        // Want reliabilityWindow[0][0] = 1.0 (i.e., P(packet@FlowSrc) = 1&#xD;
 	        // So, we initialize this first entry to 1.0, wich is reliabilityWindow[0][0]&#xD;
 	        // We will then update this row with computed values for each node and put it&#xD;
 	        // back in the matrix&#xD;
 	        currentReliabilityRowArrayList.set(0, 1.0);&#xD;
-	        //currentReliabilityRow[0] = 1.0; // initialize (i.e., P(packet@FlowSrc) = 1&#xD;
+	        // initialize (i.e., P(packet@FlowSrc) = 1&#xD;
 	        Double e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1); // the analysis will end&#xD;
 	                                                                              // when the 2e2&#xD;
 	                                                                              // reliability matrix is&#xD;
@@ -6425,11 +6428,11 @@ string in a program schedule time slot.&#xD;
 	        var timeSlot = 0; // start time at 0&#xD;
 	        while (e2eReliabilityState &lt; e2e) { // change to while and increment increment timeSlot because&#xD;
 	                                            // we don't know how long this schedule window will last&#xD;
-	          var prevReliabilityRow = currentReliabilityRowArrayList;&#xD;
-	          currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would&#xD;
-	          currentReliabilityRowArrayList.clear();&#xD;
-	          Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);                                                                                        // be&#xD;
-	                                                                                                   // reliabilityWindow[timeSlot]&#xD;
+	          ReliabilityRow prevReliabilityRow = new ReliabilityRow();&#xD;
+	          prevReliabilityRow.clear();&#xD;
+	          prevReliabilityRow.addAll(currentReliabilityRowArrayList); 							// would&#xD;
+	          currentReliabilityRowArrayList.clear();            									 // be&#xD;
+	          currentReliabilityRowArrayList.addAll(newReliabilityRow);                               // reliabilityWindow[timeSlot]&#xD;
 	                                                                                                   // if&#xD;
 	                                                                                                   // working&#xD;
 	                                                                                                   // through&#xD;
@@ -6465,8 +6468,8 @@ string in a program schedule time slot.&#xD;
 	                                                                                      // continue&#xD;
 	                                                                                      // attempting to&#xD;
 	                                                                                      // Tx, so update&#xD;
-	              nPushes.set(nodeIndex, nPushes.get(nodeIndex) + 1); // our CODE                                                                     // current state&#xD;
-	              //nPushes[nodeIndex] += 1; // increment the number of pushes for for this node to snk node&#xD;
+	              nPushes.set(nodeIndex, nPushes.get(nodeIndex) + 1); // our CODE         // current state&#xD;
+	               // increment the number of pushes for for this node to snk node&#xD;
 	            } else {&#xD;
 	              nextSnkState = prevSnkNodeState; // snkNode has met its reliability. Thus move on to the&#xD;
 	                                               // next node and record the reliability met&#xD;
@@ -6486,7 +6489,7 @@ string in a program schedule time slot.&#xD;
 	                                                                                                  // old&#xD;
 	                                                                                                  // value&#xD;
 	              currentReliabilityRowArrayList.set(flowSrcNodeindex, prevReliabilityRow.get(flowSrcNodeindex));                                                                                    // forward&#xD;
-	              //currentReliabilityRow[flowSrcNodeindex] = prevReliabilityRow[flowSrcNodeindex]; // carry&#xD;
+	              																					// carry&#xD;
 	                                                                                              // forward&#xD;
 	                                                                                              // the&#xD;
 	                                                                                              // previous&#xD;
@@ -6505,8 +6508,7 @@ string in a program schedule time slot.&#xD;
 	                                                                                              // in this&#xD;
 	                                                                                              // slot&#xD;
 	            }&#xD;
-	            currentReliabilityRowArrayList.set(flowSnkNodeindex, nextSnkState);&#xD;
-	            //currentReliabilityRow[flowSnkNodeindex] = nextSnkState;&#xD;
+	            currentReliabilityRowArrayList.set(flowSnkNodeindex, nextSnkState);;&#xD;
 	          }&#xD;
 &#xD;
 	          e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1);&#xD;
@@ -6515,7 +6517,6 @@ string in a program schedule time slot.&#xD;
 	          &#xD;
 	          //REMINDER THIS IS WHERE WE LEFT OFF need to change the .addAll&#xD;
 	          currentReliabilityVector = currentReliabilityRowArrayList;&#xD;
-	          //Collections.addAll(currentReliabilityVector, currentReliabilityRowArrayList);&#xD;
 	          &#xD;
 	          if (timeSlot &lt; reliabilityWindow.size()) {&#xD;
 	            reliabilityWindow.set(timeSlot, (currentReliabilityVector));&#xD;
@@ -6526,12 +6527,10 @@ string in a program schedule time slot.&#xD;
 	        }&#xD;
 	        var size = reliabilityWindow.size();&#xD;
 	        nPushes.set(nNodesInFlow, size);&#xD;
-	        //nPushes[nNodesInFlow] = size; // The total (worst-case) cost to transmit E2E in isolation with&#xD;
+	        							// The total (worst-case) cost to transmit E2E in isolation with&#xD;
 	                                      // specified reliability target is the number of rows in the&#xD;
 	                                      // reliabilityWindow&#xD;
 	        // Now convert the array to the ArrayList needed to return&#xD;
-	        //ArrayList&lt;Integer> nPushesArrayList = new ArrayList&lt;Integer>();&#xD;
-	        //Collections.addAll(nPushesArrayList, nPushes);&#xD;
 	        return nPushes; 	&#xD;
 	    	&#xD;
 	    }else{//END OF IF&#xD;
@@ -6559,7 +6558,7 @@ string in a program schedule time slot.&#xD;
 </body>
               </ownedBehavior>
               <ownedOperation xmi:id="_LmjQASuiEeyJjNOKZ7e9aA" name="verifyReliabilities" method="_Ly-ifiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq_h8DXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_VDd2EeykP74baAFnvg">
                   <body>&#xD;
     * @return Boolean</body>
                 </ownedComment>
@@ -6571,11 +6570,15 @@ string in a program schedule time slot.&#xD;
                 <eAnnotations xmi:id="_LwICxSuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LwICxiuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
+                <ownedComment xmi:id="_0tz_UTd2EeykP74baAFnvg">
+                  <body>Creates an object ReliabilityAnalysis with the specified information&#xD;
+    * @param program</body>
+                </ownedComment>
                 <ownedParameter xmi:id="_LwICxCuiEeyJjNOKZ7e9aA" name="program" type="_LmQVECuiEeyJjNOKZ7e9aA"/>
                 <ownedParameter xmi:id="_LwICxyuiEeyJjNOKZ7e9aA" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_xlvf4CupEeyJjNOKZ7e9aA" name="getReliabilities">
-                <ownedComment xmi:id="_Pq_h8TXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_VTd2EeykP74baAFnvg">
                   <body>&#xD;
     * @return ReliabilityTable</body>
                 </ownedComment>
@@ -6585,12 +6588,19 @@ string in a program schedule time slot.&#xD;
                 <eAnnotations xmi:id="_Posb5DXLEeyzKPzbxOg4Ww" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_Posb5TXLEeyzKPzbxOg4Ww" key="create"/>
                 </eAnnotations>
+                <ownedComment xmi:id="_0tz_Ujd2EeykP74baAFnvg">
+                  <body>This public constructor is when the constructor call has both a specific&#xD;
+    * e2e and a specific minimum packet reception rate and does not take in &#xD;
+    * numfaults&#xD;
+    * @param e2e&#xD;
+    * @param minPacketReceptionRate</body>
+                </ownedComment>
                 <ownedParameter xmi:id="_Posb4TXLEeyzKPzbxOg4Ww" name="e2e" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
                 <ownedParameter xmi:id="_Posb4jXLEeyzKPzbxOg4Ww" name="minPacketReceptionRate" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
                 <ownedParameter xmi:id="_Posb4zXLEeyzKPzbxOg4Ww" type="_LmjQACuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_PotC8DXLEeyzKPzbxOg4Ww" name="numTxPerLinkAndTotalCost" method="_Pqw4czXLEeyzKPzbxOg4Ww">
-                <ownedComment xmi:id="_Pq_h8jXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_Vjd2EeykP74baAFnvg">
                   <body>Public function designed to return an ArrayList, representing a flow's &#xD;
     * numTxPerLinkAndTotalCost, results are meant to vary depending on the&#xD;
     * instance of the ReliabilityAnalysis object that is created.&#xD;
@@ -6607,6 +6617,12 @@ string in a program schedule time slot.&#xD;
                 <eAnnotations xmi:id="_PqLpojXLEeyzKPzbxOg4Ww" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_PqLpozXLEeyzKPzbxOg4Ww" key="create"/>
                 </eAnnotations>
+                <ownedComment xmi:id="_0tz_Uzd2EeykP74baAFnvg">
+                  <body>This public constructor is for when the constructor call only gives&#xD;
+    * an integer representing the numFaults and uses the default e2e and&#xD;
+    * default minimum packet reception rate&#xD;
+    * @param numFaults</body>
+                </ownedComment>
                 <ownedParameter xmi:id="_PqLpoDXLEeyzKPzbxOg4Ww" name="numFaults">
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
@@ -6614,7 +6630,7 @@ string in a program schedule time slot.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Interface" xmi:id="_Lmj3ECuiEeyJjNOKZ7e9aA" name="ReliabilityParameters" visibility="package">
-              <ownedComment xmi:id="_Pq_h8zXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod1Td2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -6739,7 +6755,7 @@ string in a program schedule time slot.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Lmm6ZiuiEeyJjNOKZ7e9aA" name="ReliabilityVisualization">
-              <ownedComment xmi:id="_Pq_h9DXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod1jd2EeykP74baAFnvg">
                 <body>ReliabilityVisualization creates the visualizations for&#xD;
 the reliability analysis of the WARP program. &lt;p>&#xD;
 &#xD;
@@ -6979,7 +6995,7 @@ the file visualization that is requested in WarpTester.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LmtoECuiEeyJjNOKZ7e9aA" name="Schedule" isAbstract="true">
-              <ownedComment xmi:id="_Pq_h9zXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod2Dd2EeykP74baAFnvg">
                 <body>Schedule builds a non-preemptive, priority schedule &#xD;
 for the Partially Ordered Set (Poset) using numChannels. &#xD;
 It ensures, precedence constraints are preserved, and &#xD;
@@ -7790,7 +7806,7 @@ reports deadline misses.&#xD;
 	</body>
               </ownedBehavior>
               <ownedOperation xmi:id="_LmvdRSuiEeyJjNOKZ7e9aA" name="getSchedule" method="_LzAXtSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq_h-jXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE4jd2EeykP74baAFnvg">
                   <body>@return the schedule</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LwLtJiuiEeyJjNOKZ7e9aA" type="_Lm080CuiEeyJjNOKZ7e9aA" direction="return"/>
@@ -7800,7 +7816,7 @@ reports deadline misses.&#xD;
                 <ownedParameter xmi:id="_LwLtJyuiEeyJjNOKZ7e9aA" type="_LmciUCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LmwrYCuiEeyJjNOKZ7e9aA" name="timeRemaining" visibility="protected" method="_LzBlxSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAJBDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE6Dd2EeykP74baAFnvg">
                   <body>timeRemaining returns duration minus the number of vacant slots found. &#xD;
 	 * &#xD;
 	 * @return duration-vacantSlots</body>
@@ -7831,7 +7847,7 @@ reports deadline misses.&#xD;
                 <ownedParameter xmi:id="_LwLtJSuiEeyJjNOKZ7e9aA" type="_LmtoECuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LwLtKCuiEeyJjNOKZ7e9aA" name="replaceNullWithSleep" visibility="private" method="_LzA-siuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq_h-zXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE4zd2EeykP74baAFnvg">
                   <body>Replace all null entries in program with sleep instructions&#xD;
 	 * &#xD;
 	 * @param program</body>
@@ -7842,7 +7858,7 @@ reports deadline misses.&#xD;
                 <ownedParameter xmi:id="_LwMUMiuiEeyJjNOKZ7e9aA" name="next" type="_LlLXACuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LwMUMyuiEeyJjNOKZ7e9aA" name="getChannelAndSetStartTime" visibility="protected" method="_LzA-tiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAJADXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE5Dd2EeykP74baAFnvg">
                   <body>getChannel checks for conflicts and if none, returns a free&#xD;
 	 * channel. &lt;br>&#xD;
 	 * If return value == numChannels, then no channel can be assigned&#xD;
@@ -7864,7 +7880,7 @@ reports deadline misses.&#xD;
                 <ownedParameter xmi:id="_LwMUOSuiEeyJjNOKZ7e9aA" type="_LmuPICuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LwM7QCuiEeyJjNOKZ7e9aA" name="continueSearch" visibility="protected" method="_LzA-vSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAJATXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE5Td2EeykP74baAFnvg">
                   <body>continueSearch continues the search for a channel time.&lt;br>&#xD;
 	 * The default implementation continues at time+1 by calling&#xD;
 	 * findChannelAndTime(time+1,schedulableObject). This method&#xD;
@@ -7921,7 +7937,7 @@ reports deadline misses.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LwNiVSuiEeyJjNOKZ7e9aA" name="isAvailable" visibility="protected" method="_LzA-0SuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAJAjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE5jd2EeykP74baAFnvg">
                   <body>isAvailable returns true if the schedule for the channel is available in the &#xD;
 	 * interval [start, start+duration-1]</body>
                 </ownedComment>
@@ -7940,7 +7956,7 @@ reports deadline misses.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LwNiWyuiEeyJjNOKZ7e9aA" name="isAvailable" visibility="protected" method="_LzBlwCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAJAzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE5zd2EeykP74baAFnvg">
                   <body>isAvailable returns true if the schedule is available in the &#xD;
 	 * interval [start, start+duration-1] in any channel</body>
                 </ownedComment>
@@ -8049,7 +8065,7 @@ reports deadline misses.&#xD;
                   <ownedParameter xmi:id="_LmvdQCuiEeyJjNOKZ7e9aA" type="_LmuPICuiEeyJjNOKZ7e9aA" direction="return"/>
                 </ownedOperation>
                 <ownedOperation xmi:id="_LmvdQSuiEeyJjNOKZ7e9aA" name="getChannel" visibility="protected" method="_LzAXsSuiEeyJjNOKZ7e9aA">
-                  <ownedComment xmi:id="_Pq_h-DXLEeyzKPzbxOg4Ww">
+                  <ownedComment xmi:id="_1fpE4Dd2EeykP74baAFnvg">
                     <body>@return the channel</body>
                   </ownedComment>
                   <ownedParameter xmi:id="_LmvdQiuiEeyJjNOKZ7e9aA" direction="return">
@@ -8057,7 +8073,7 @@ reports deadline misses.&#xD;
                   </ownedParameter>
                 </ownedOperation>
                 <ownedOperation xmi:id="_LmvdQyuiEeyJjNOKZ7e9aA" name="getTime" visibility="protected" method="_LzAXsyuiEeyJjNOKZ7e9aA">
-                  <ownedComment xmi:id="_Pq_h-TXLEeyzKPzbxOg4Ww">
+                  <ownedComment xmi:id="_1fpE4Td2EeykP74baAFnvg">
                     <body>@return the time</body>
                   </ownedComment>
                   <ownedParameter xmi:id="_LmvdRCuiEeyJjNOKZ7e9aA" direction="return">
@@ -8150,7 +8166,7 @@ reports deadline misses.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Lm2yACuiEeyJjNOKZ7e9aA" name="SimulatorInput">
-              <ownedComment xmi:id="_PrAJBTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE6Td2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -8230,7 +8246,7 @@ reports deadline misses.&#xD;
               </ownedAttribute>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Lm6cYiuiEeyJjNOKZ7e9aA" name="SystemFactory">
-              <ownedComment xmi:id="_PrAJBjXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE6jd2EeykP74baAFnvg">
                 <body>Factory Class to create a schedule instance.&#xD;
 This factory can be used to create different&#xD;
 types of schedules.&#xD;
@@ -8243,7 +8259,9 @@ types of schedules.&#xD;
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
                 </ownedParameter>
                 <ownedParameter xmi:id="_PqyGkzXLEeyzKPzbxOg4Ww" name="choice" type="_LwQloSuiEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_PqyGlDXLEeyzKPzbxOg4Ww" type="_LnHQsCuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_PqyGlDXLEeyzKPzbxOg4Ww" type="_LnHQsCuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>return new WarpSystem(workload,numChannels, choice);&#xD;
 	</body>
@@ -8405,7 +8423,7 @@ types of schedules.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Interface" xmi:id="_Lm84oCuiEeyJjNOKZ7e9aA" name="Visualization">
-              <ownedComment xmi:id="_PrAJBzXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE6zd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -8430,7 +8448,7 @@ types of schedules.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Lm-t0SuiEeyJjNOKZ7e9aA" name="VisualizationFactory">
-              <ownedComment xmi:id="_PrAJCDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE7Dd2EeykP74baAFnvg">
                 <body>Factory Class to create a visualization instance.&#xD;
 This factory can be used to create different&#xD;
 types of visualizations.&#xD;
@@ -8443,7 +8461,9 @@ types of visualizations.&#xD;
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <ownedParameter xmi:id="_PqytozXLEeyzKPzbxOg4Ww" name="choice" type="_LwRMsiuiEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_PqytpDXLEeyzKPzbxOg4Ww" type="_Lm84oCuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_PqytpDXLEeyzKPzbxOg4Ww" type="_Lm84oCuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>return new VisualizationImplementation(warp, outputDirectory, choice);&#xD;
 	</body>
@@ -8454,7 +8474,9 @@ types of visualizations.&#xD;
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
                 </ownedParameter>
                 <ownedParameter xmi:id="_PqytqDXLEeyzKPzbxOg4Ww" name="choice" type="_LwRzwSuiEeyJjNOKZ7e9aA"/>
-                <ownedParameter xmi:id="_PqytqTXLEeyzKPzbxOg4Ww" type="_Lm84oCuiEeyJjNOKZ7e9aA" direction="return"/>
+                <ownedParameter xmi:id="_PqytqTXLEeyzKPzbxOg4Ww" type="_Lm84oCuiEeyJjNOKZ7e9aA" direction="return">
+                  <name xsi:nil="true"/>
+                </ownedParameter>
                 <language>java</language>
                 <body>return new VisualizationImplementation(workload, outputDirectory, choice);&#xD;
 	</body>
@@ -8477,7 +8499,7 @@ types of visualizations.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_Lm_U4CuiEeyJjNOKZ7e9aA" name="VisualizationImplementation">
-              <ownedComment xmi:id="_PrAJCTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE7Td2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -8693,7 +8715,7 @@ types of visualizations.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnDmUCuiEeyJjNOKZ7e9aA" name="VisualizationObject" visibility="package" isAbstract="true">
-              <ownedComment xmi:id="_Pq_h9TXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpE7jd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -8905,7 +8927,7 @@ types of visualizations.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnE0dCuiEeyJjNOKZ7e9aA" name="getFileManager" method="_LzEpFCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_Pq_h9jXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpE7zd2EeykP74baAFnvg">
                   <body>@return the fm</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LwVeJCuiEeyJjNOKZ7e9aA" type="_LlqfMCuiEeyJjNOKZ7e9aA" direction="return"/>
@@ -8996,7 +9018,7 @@ types of visualizations.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Interface" xmi:id="_LnHQsCuiEeyJjNOKZ7e9aA" name="Warp">
-              <ownedComment xmi:id="_Pq-66DXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpr8Dd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -9026,7 +9048,7 @@ types of visualizations.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnIe0CuiEeyJjNOKZ7e9aA" name="WorkLoadListener" visibility="package" isLeaf="true">
-              <ownedComment xmi:id="_PrDzYDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fqTCjd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -9186,7 +9208,7 @@ types of visualizations.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnKUACuiEeyJjNOKZ7e9aA" name="WarpPoset">
-              <ownedComment xmi:id="_Pq8eoDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpr8Td2EeykP74baAFnvg">
                 <body>ConnectivityPoset extends Poset by selecting&#xD;
 the base station in the flow as the primary &#xD;
 coordinator&#xD;
@@ -9238,7 +9260,7 @@ coordinator&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnLiICuiEeyJjNOKZ7e9aA" name="WarpSystem">
-              <ownedComment xmi:id="_PrB-NzXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpr9Td2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -9476,7 +9498,7 @@ coordinator&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnRowCuiEeyJjNOKZ7e9aA" name="WarpTester">
-              <ownedComment xmi:id="_PrB-ODXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpr9jd2EeykP74baAFnvg">
                 <body>Represents a WarpTester which tests WARP using different system and scheduler choices and visualizes&#xD;
 the work load along with outputting different specified files to show if WARP is working correctly according to&#xD;
 constraints&#xD;
@@ -9806,7 +9828,7 @@ constraints&#xD;
 	</body>
               </ownedBehavior>
               <ownedOperation xmi:id="_LnS24CuiEeyJjNOKZ7e9aA" name="main" isStatic="true" method="_LzHFWCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrB-OTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpr9zd2EeykP74baAFnvg">
                   <body>Visualizes workload according to type of file requested, system choices and scheduler choices&#xD;
 	 * along with outputting other requested files to show data about the WARP program&#xD;
 	 * @param args Command line options</body>
@@ -9842,7 +9864,7 @@ constraints&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnV6MCuiEeyJjNOKZ7e9aA" name="WorkLoad">
-              <ownedComment xmi:id="_PrB-OjXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_0tz_Vzd2EeykP74baAFnvg">
                 <body>WorkLoad creates an object, given an input file, containing information that will be&#xD;
 used to measure the graphs efficiency.&#xD;
 &#xD;
@@ -10347,39 +10369,39 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
                 <language>java</language>
                 <body>var flowNode = flows.get(flowName);&#xD;
- var m = minPacketReceptionRate; // shorten the name :-)&#xD;
- if (flowNode != null) {&#xD;
-   var nodes = flowNode.nodes;&#xD;
-   int nHops = nodes.size();&#xD;
-   if (nHops &lt; 1) {&#xD;
-     /*&#xD;
-      * number of hops in flow, but make sure it will be at least 1, else it isn't a flow! || was&#xD;
-      * -1 at end&#xD;
-      */&#xD;
-     nHops = 2;&#xD;
-   }&#xD;
-   Double nTx = 1.0; // set nTx to 1 by default (1 transmission per link required at a minimum&#xD;
-                     // and when m == 1.0&#xD;
-   if (m &lt; 1.0) {&#xD;
-     /*&#xD;
-      * now compute nTXper link based on Ryan's formula: log(1 - e2e^(1/hops)) / log(1 - M) = #&#xD;
-      * txs per hop&#xD;
-      */&#xD;
-     nTx = Math.log((1.0 - Math.pow(e2e, (1.0 / (double) nHops)))) / Math.log(1.0 - m);&#xD;
-   }&#xD;
-   /* set numTxPerLink based on M, E2E, and flow length */&#xD;
-   flowNode.numTxPerLink = (int) Math.ceil(nTx);&#xD;
-   /* Now compute nTx per link to reach E2E requirement. */&#xD;
-   ReliabilityAnalysis linkTxAndTotalCost = new ReliabilityAnalysis(e2e, m);&#xD;
-   ArrayList&lt;Integer> refactoredResult = linkTxAndTotalCost.numTxPerLinkAndTotalCost(flowNode);&#xD;
-   //ArrayList&lt;Integer> linkTxAndTotalCost = nTxPerLinkAndTotalTxCost(flowNode, e2e, m, true);&#xD;
-   flowNode.linkTxAndTotalCost = refactoredResult;&#xD;
-   flows.put(flowName, flowNode); // update flow node in Flows array&#xD;
- } else { // should never happen...&#xD;
-   System.out.printf(&quot;\n\tWarning! Bad situation: Flow %s doesn't exist but &quot;&#xD;
-       + &quot;trying to get its numTxPerLink property\n.&quot;, flowName);&#xD;
- }&#xD;
-  </body>
+	    var m = minPacketReceptionRate; // shorten the name :-)&#xD;
+	    if (flowNode != null) {&#xD;
+	      var nodes = flowNode.nodes;&#xD;
+	      int nHops = nodes.size();&#xD;
+	      if (nHops &lt; 1) {&#xD;
+	        /*&#xD;
+	         * number of hops in flow, but make sure it will be at least 1, else it isn't a flow! || was&#xD;
+	         * -1 at end&#xD;
+	         */&#xD;
+	        nHops = 2;&#xD;
+	      }&#xD;
+	      Double nTx = 1.0; // set nTx to 1 by default (1 transmission per link required at a minimum&#xD;
+	                        // and when m == 1.0&#xD;
+	      if (m &lt; 1.0) {&#xD;
+	        /*&#xD;
+	         * now compute nTXper link based on Ryan's formula: log(1 - e2e^(1/hops)) / log(1 - M) = #&#xD;
+	         * txs per hop&#xD;
+	         */&#xD;
+	        nTx = Math.log((1.0 - Math.pow(e2e, (1.0 / (double) nHops)))) / Math.log(1.0 - m);&#xD;
+	      }&#xD;
+	      /* set numTxPerLink based on M, E2E, and flow length */&#xD;
+	      flowNode.numTxPerLink = (int) Math.ceil(nTx);&#xD;
+	      /* Now compute nTx per link to reach E2E requirement. */&#xD;
+	      ReliabilityAnalysis linkTxAndTotalCost = new ReliabilityAnalysis(e2e, m);&#xD;
+	      ArrayList&lt;Integer> refactoredResult = linkTxAndTotalCost.numTxPerLinkAndTotalCost(flowNode);&#xD;
+	      //ArrayList&lt;Integer> linkTxAndTotalCost = nTxPerLinkAndTotalTxCost(flowNode, e2e, m, true);&#xD;
+	      flowNode.linkTxAndTotalCost = refactoredResult;&#xD;
+	      flows.put(flowName, flowNode); // update flow node in Flows array&#xD;
+	    } else { // should never happen...&#xD;
+	      System.out.printf(&quot;\n\tWarning! Bad situation: Flow %s doesn't exist but &quot;&#xD;
+	          + &quot;trying to get its numTxPerLink property\n.&quot;, flowName);&#xD;
+	    }&#xD;
+	  </body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LzKIpCuiEeyJjNOKZ7e9aA" name="finalizeFlowWithFixedFaultTolerance" specification="_LnbZxCuiEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_LzKIpSuiEeyJjNOKZ7e9aA" name="flowName">
@@ -10387,20 +10409,20 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
                 <language>java</language>
                 <body>var flowNode = flows.get(flowName);&#xD;
- if (flowNode != null) {&#xD;
-   /* set numTxPerLink based on M, E2E, and flow length */&#xD;
-   flowNode.numTxPerLink = numFaults + 1;&#xD;
-   /* Now compute nTx per link to reach E2E requirement. */&#xD;
-   ReliabilityAnalysis linkTxAndTotalCost = new ReliabilityAnalysis(numFaults);&#xD;
-   ArrayList&lt;Integer> refactoredResult = linkTxAndTotalCost.numTxPerLinkAndTotalCost(flowNode);&#xD;
-   //ArrayList&lt;Integer> linkTxAndTotalCost = getFixedPerLinkAndTotalTxCost(flowNode);&#xD;
-   flowNode.linkTxAndTotalCost = refactoredResult;&#xD;
-   flows.put(flowName, flowNode); // update flow node in Flows array&#xD;
- } else { // should never happen...&#xD;
-   System.out.printf(&quot;\n\tWarning! Bad situation: Flow %s doesn't exist but &quot;&#xD;
-       + &quot;trying to get its numTxPerLink property\n.&quot;, flowName);&#xD;
- }&#xD;
-  </body>
+	    if (flowNode != null) {&#xD;
+	      /* set numTxPerLink based on M, E2E, and flow length */&#xD;
+	      flowNode.numTxPerLink = numFaults + 1;&#xD;
+	      /* Now compute nTx per link to reach E2E requirement. */&#xD;
+	      ReliabilityAnalysis linkTxAndTotalCost = new ReliabilityAnalysis(numFaults);&#xD;
+	      ArrayList&lt;Integer> refactoredResult = linkTxAndTotalCost.numTxPerLinkAndTotalCost(flowNode);&#xD;
+	      //ArrayList&lt;Integer> linkTxAndTotalCost = getFixedPerLinkAndTotalTxCost(flowNode);&#xD;
+	      flowNode.linkTxAndTotalCost = refactoredResult;&#xD;
+	      flows.put(flowName, flowNode); // update flow node in Flows array&#xD;
+	    } else { // should never happen...&#xD;
+	      System.out.printf(&quot;\n\tWarning! Bad situation: Flow %s doesn't exist but &quot;&#xD;
+	          + &quot;trying to get its numTxPerLink property\n.&quot;, flowName);&#xD;
+	    }&#xD;
+	  </body>
               </ownedBehavior>
               <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LzKIryuiEeyJjNOKZ7e9aA" name="getNodesOrderedAlphabetically" specification="_LncA0CuiEeyJjNOKZ7e9aA">
                 <ownedParameter xmi:id="_LzKIsCuiEeyJjNOKZ7e9aA" direction="return">
@@ -10588,13 +10610,13 @@ used to measure the graphs efficiency.&#xD;
               </ownedBehavior>
               <ownedOperation xmi:id="_LnXIUCuiEeyJjNOKZ7e9aA" name="setDefaultParameters" visibility="private" method="_LzITeyuiEeyJjNOKZ7e9aA"/>
               <ownedOperation xmi:id="_LnXIUSuiEeyJjNOKZ7e9aA" name="getE2e" method="_LzITfCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClQjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_Wjd2EeykP74baAFnvg">
                   <body>@return the e2e</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxpsyCuiEeyJjNOKZ7e9aA" type="_LxXY5CuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXIUiuiEeyJjNOKZ7e9aA" name="getIntForFlowNames" method="_LzITfiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClQzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_Wzd2EeykP74baAFnvg">
                   <body>@return the intForFlowNames</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXIUyuiEeyJjNOKZ7e9aA" direction="return">
@@ -10602,7 +10624,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXIVCuiEeyJjNOKZ7e9aA" name="getName" method="_LzITgCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClRDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_XDd2EeykP74baAFnvg">
                   <body>@return the name</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXIVSuiEeyJjNOKZ7e9aA" direction="return">
@@ -10610,7 +10632,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXIViuiEeyJjNOKZ7e9aA" name="getMaxPhase" method="_LzIThCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClRjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mYDd2EeykP74baAFnvg">
                   <body>@return the maximum phase of all flows</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXvYCuiEeyJjNOKZ7e9aA" direction="return">
@@ -10618,7 +10640,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXvYSuiEeyJjNOKZ7e9aA" name="getMinPeriod" method="_LzIThiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClRzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mYTd2EeykP74baAFnvg">
                   <body>@return the minimum period of all flows</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXvYiuiEeyJjNOKZ7e9aA" direction="return">
@@ -10626,7 +10648,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXvYyuiEeyJjNOKZ7e9aA" name="setIntForFlowNames" method="_LzITiiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClSTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mYzd2EeykP74baAFnvg">
                   <body>@param intForFlowNames the intForFlowNames to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXvZCuiEeyJjNOKZ7e9aA" name="intForFlowNames">
@@ -10634,7 +10656,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnXvZSuiEeyJjNOKZ7e9aA" name="setName" method="_LzI6gCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClSjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mZDd2EeykP74baAFnvg">
                   <body>@param name the name to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LnXvZiuiEeyJjNOKZ7e9aA" name="name">
@@ -10642,7 +10664,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnYWcCuiEeyJjNOKZ7e9aA" name="setNodeChannel" method="_LzI6giuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClSzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mZTd2EeykP74baAFnvg">
                   <body>@param name the node whose channel is to be set&#xD;
    * @param channel the channel to set</body>
                 </ownedComment>
@@ -10654,7 +10676,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnYWcyuiEeyJjNOKZ7e9aA" name="getNodeChannel" method="_LzI6hSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClTDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mZjd2EeykP74baAFnvg">
                   <body>@param name Name of node&#xD;
    * @return the node channel</body>
                 </ownedComment>
@@ -10666,7 +10688,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnYWdiuiEeyJjNOKZ7e9aA" name="addFlow" method="_LzI6iCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClTTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mZzd2EeykP74baAFnvg">
                   <body>Adds a new flow mode to the Flows dictionary with a new name, index, and priority with the other parameters &#xD;
   * set to default if the flow doesn't have custom parameters&#xD;
   * @param flowName Flow's name</body>
@@ -10676,7 +10698,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnYWeCuiEeyJjNOKZ7e9aA" name="isIntForNodeNames" method="_LzI6iiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClTjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0maDd2EeykP74baAFnvg">
                   <body>Checks if all node names are integers&#xD;
    * @return A boolean indicating if all node names are integers or not</body>
                 </ownedComment>
@@ -10685,7 +10707,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnYWeiuiEeyJjNOKZ7e9aA" name="isIntForFlowNames" method="_LzI6jCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClTzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0maTd2EeykP74baAFnvg">
                   <body>Checks if all flow names are integers&#xD;
    * @return A boolean indicating if all flow names are integers or not</body>
                 </ownedComment>
@@ -10694,7 +10716,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnY9gSuiEeyJjNOKZ7e9aA" name="addNodeToFlow" method="_LzI6jiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClUDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0majd2EeykP74baAFnvg">
                   <body>Adds an existing node to a map of nodes or creates a node, if the given node is not already in the map of nodes,&#xD;
    * and then adds it to the map, once created, it adds the node to the given flow&#xD;
    * @param flowName Flow's name&#xD;
@@ -10708,7 +10730,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnY9hCuiEeyJjNOKZ7e9aA" name="getFlowPriority" method="_LzI6kSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClUTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mazd2EeykP74baAFnvg">
                   <body>Gets the given flow node's priority attribute&#xD;
    * @param flowName Flow's name&#xD;
    * @param nodeName Node's name&#xD;
@@ -10725,7 +10747,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnY9iCuiEeyJjNOKZ7e9aA" name="setFlowPriority" method="_LzI6lSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClUjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mbDd2EeykP74baAFnvg">
                   <body>Set's a given flow node's priority attribute&#xD;
    * @param flowName Flow's name&#xD;
    * @param priority Integer to set the given flow's priority attribute to</body>
@@ -10738,7 +10760,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnZkkCuiEeyJjNOKZ7e9aA" name="setFlowPeriod" method="_LzI6mCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClUzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mbTd2EeykP74baAFnvg">
                   <body>Set's a given flow's period attribute to a given integer, denoting the time between&#xD;
    * successive releases of a packet of data from the source node&#xD;
    * @param flowName Flow's name&#xD;
@@ -10752,7 +10774,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnZkkyuiEeyJjNOKZ7e9aA" name="setFlowDeadline" method="_LzI6myuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClVDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mbjd2EeykP74baAFnvg">
                   <body>Set's a given flow's deadline attribute, which is the amount of time that can elapse&#xD;
    * from the release of a packet and its arrival at the sink node&#xD;
    * @param flowName Flow's name&#xD;
@@ -10766,7 +10788,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnZkliuiEeyJjNOKZ7e9aA" name="setFlowPhase" method="_LzJhkCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMUDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mbzd2EeykP74baAFnvg">
                   <body>Set a flow's phase&#xD;
    * &#xD;
    * @param flowName Name of flow&#xD;
@@ -10780,7 +10802,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaLoCuiEeyJjNOKZ7e9aA" name="getFlowIndex" method="_LzJhkyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMUTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mcDd2EeykP74baAFnvg">
                   <body>Gets a flow's index&#xD;
    * &#xD;
    * @param flowName Name of flow&#xD;
@@ -10794,8 +10816,8 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaLoyuiEeyJjNOKZ7e9aA" name="getFlowPriority" method="_LzJhliuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMUjXLEeyzKPzbxOg4Ww">
-                  <body>Gets a flow's priority&#xD;
+                <ownedComment xmi:id="_0t0mcTd2EeykP74baAFnvg">
+                  <body>Gets a flow's priorityn&#xD;
    * &#xD;
    * @param flowName Name of flow&#xD;
    * @return Flow's priority</body>
@@ -10808,7 +10830,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaLpiuiEeyJjNOKZ7e9aA" name="getFlowPeriod" method="_LzJhmSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMUzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mcjd2EeykP74baAFnvg">
                   <body>Gets a given Flow's period attribute, which is the time between successive releases&#xD;
    * of a packet of data from the source node&#xD;
    * @param flowName Flow's name&#xD;
@@ -10822,7 +10844,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaLqSuiEeyJjNOKZ7e9aA" name="getFlowDeadline" method="_LzJhnCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMVDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mczd2EeykP74baAFnvg">
                   <body>Gets a given Flow's deadline, which is the amount of time that can elapse&#xD;
    * from the release of a packet and its arrival at the sink node&#xD;
    * @param flowName Flow's name&#xD;
@@ -10836,7 +10858,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaysCuiEeyJjNOKZ7e9aA" name="getFlowPhase" method="_LzJhnyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMVTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mdDd2EeykP74baAFnvg">
                   <body>Get's a given flow's phase attribute, which is the time offset from time 0 that the&#xD;
    * first release of data occurs&#xD;
    * @param flowName Flow's name&#xD;
@@ -10850,7 +10872,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaysyuiEeyJjNOKZ7e9aA" name="getFlowTxPerLink" method="_LzJhoiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMVjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mdTd2EeykP74baAFnvg">
                   <body>Get a given flow's number of transmissions per link&#xD;
    * @param flowName Flow's name&#xD;
    * @return An integer representing the given flow's transmissions per link</body>
@@ -10863,28 +10885,28 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaytiuiEeyJjNOKZ7e9aA" name="setFlowsInPriorityOrder" method="_LzJhpSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMVzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mdjd2EeykP74baAFnvg">
                   <body>Arranges the flows from FlowMap in priority order.</body>
                 </ownedComment>
               </ownedOperation>
               <ownedOperation xmi:id="_LnaytyuiEeyJjNOKZ7e9aA" name="setFlowsInDMorder" method="_LzJhpiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMWDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mdzd2EeykP74baAFnvg">
                   <body>Arranges the flows in FlowMap by deadlines.</body>
                 </ownedComment>
               </ownedOperation>
               <ownedOperation xmi:id="_LnayuCuiEeyJjNOKZ7e9aA" name="setFlowsInRMorder" method="_LzJhpyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMWTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0meDd2EeykP74baAFnvg">
                   <body>Arranges the flows in FlowMap by their periods.</body>
                 </ownedComment>
               </ownedOperation>
               <ownedOperation xmi:id="_LnayuSuiEeyJjNOKZ7e9aA" name="setFlowsInRealTimeHARTorder" method="_LzJhqCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMWjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0meTd2EeykP74baAFnvg">
                   <body>Set flows in priority order&#xD;
    *</body>
                 </ownedComment>
               </ownedOperation>
               <ownedOperation xmi:id="_LnbZwCuiEeyJjNOKZ7e9aA" name="finalizeCurrentFlow" method="_LzKIoCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMWzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mejd2EeykP74baAFnvg">
                   <body>Finalize current flow&#xD;
    * &#xD;
    * @param flowName Name of flow</body>
@@ -10904,7 +10926,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LncA0CuiEeyJjNOKZ7e9aA" name="getNodesOrderedAlphabetically" method="_LzKIryuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMXDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1NcDd2EeykP74baAFnvg">
                   <body>Returns an array of nodes sorted by their names.&#xD;
    * &#xD;
    * @return nodeNames An array of nodes sorted alphabetically</body>
@@ -10921,7 +10943,7 @@ used to measure the graphs efficiency.&#xD;
                 <ownedParameter xmi:id="_LwjgkSuiEeyJjNOKZ7e9aA" type="_LltigCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LncA1iuiEeyJjNOKZ7e9aA" name="getFlowNames" method="_LzKvsCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMXTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1NcTd2EeykP74baAFnvg">
                   <body>Public function to return an array of flow names in the order they were read from&#xD;
    * the graph file.&#xD;
    * &#xD;
@@ -10934,7 +10956,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Lncn4SuiEeyJjNOKZ7e9aA" name="getNodeIndex" method="_LzKvsyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMXjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1Ncjd2EeykP74baAFnvg">
                   <body>Public function to return the dictionary of nodes.&#xD;
    * &#xD;
    * @param nodeName A string of the specific node desired. &#xD;
@@ -10948,7 +10970,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Lncn5CuiEeyJjNOKZ7e9aA" name="getNodesInFlow" method="_LzKvtiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMXzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1Nczd2EeykP74baAFnvg">
                   <body>Returns an array of nodes in the order that they appear in the flow.&#xD;
    * &#xD;
    * @param flowName A string containing the name of the desired flow.&#xD;
@@ -10963,7 +10985,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Lncn6SuiEeyJjNOKZ7e9aA" name="getHyperPeriod" method="_LzKvuiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMYDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1NdDd2EeykP74baAFnvg">
                   <body>Updates HyperPeriod the the the current period value.&#xD;
    * &#xD;
    * @return hyperPeriod An Integer that represents the current hyperPeriod.</body>
@@ -10973,7 +10995,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LndO8SuiEeyJjNOKZ7e9aA" name="getTotalCommunicationCost" method="_LzKvvCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMYTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1NdTd2EeykP74baAFnvg">
                   <body>Returns the total cost of a given flow.&#xD;
    * &#xD;
    * @param flowName A string of the desired flow. &#xD;
@@ -10987,7 +11009,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LndO9CuiEeyJjNOKZ7e9aA" name="getLinkCommunicationCosts" method="_LzKvvyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMYjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1Ndjd2EeykP74baAFnvg">
                   <body>Return an array of the number of transmission needed for each&#xD;
    * link (i.e. edge in the flow graph) to meet E2E target.&#xD;
    *&#xD;
@@ -11004,7 +11026,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Lnd2ACuiEeyJjNOKZ7e9aA" name="maxFlowLength" method="_LzKvxiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMZDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1NeDd2EeykP74baAFnvg">
                   <body>Returns the max length of a flow.&#xD;
    * &#xD;
    * @return maxLength An Integer that represents the max length of the flow.</body>
@@ -11014,7 +11036,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_LwjgkiuiEeyJjNOKZ7e9aA" name="addEdge" method="_LzKvwyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrDMYzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t1Ndzd2EeykP74baAFnvg">
                   <body>Adds an edge connected to the given node.&#xD;
    * &#xD;
    * @param nodeName String of the desired node you wish to add an edge to. &#xD;
@@ -11029,7 +11051,7 @@ used to measure the graphs efficiency.&#xD;
                 <eAnnotations xmi:id="_LxpFtCuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LxpFtSuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_PrClQDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_WDd2EeykP74baAFnvg">
                   <body>Creates a workload with the specified information.&#xD;
    * &#xD;
    * @param m&#xD;
@@ -11047,7 +11069,7 @@ used to measure the graphs efficiency.&#xD;
                 <eAnnotations xmi:id="_LxpsxSuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LxpsxiuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_PrClQTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_WTd2EeykP74baAFnvg">
                   <body>Creates a workload with the specified information&#xD;
    * &#xD;
    * @param numFaults&#xD;
@@ -11067,20 +11089,20 @@ used to measure the graphs efficiency.&#xD;
                 <ownedParameter xmi:id="_LxpsxyuiEeyJjNOKZ7e9aA" type="_LnV6MCuiEeyJjNOKZ7e9aA" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LxpsySuiEeyJjNOKZ7e9aA" name="setMinPacketReceptionRate" method="_LzITgiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClRTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0tz_XTd2EeykP74baAFnvg">
                   <body>@param minPacketReceptionRate the minPacketReceptionRate to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxpsyiuiEeyJjNOKZ7e9aA" name="minPacketReceptionRate" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
               <ownedOperation xmi:id="_LxqT0CuiEeyJjNOKZ7e9aA" name="setE2e" method="_LzITiCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrClSDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_0t0mYjd2EeykP74baAFnvg">
                   <body>@param e2e the e2e to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LxqT0SuiEeyJjNOKZ7e9aA" name="e2e" type="_LxXY5CuiEeyJjNOKZ7e9aA"/>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnhgYCuiEeyJjNOKZ7e9aA" name="WorkLoadDescription">
-              <ownedComment xmi:id="_PrDMZTXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fod1zd2EeykP74baAFnvg">
                 <body>Provides information on graphs that are given through .txt files&#xD;
 &#xD;
 @author sgoddard</body>
@@ -11229,7 +11251,7 @@ used to measure the graphs efficiency.&#xD;
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_LnkjsCuiEeyJjNOKZ7e9aA" name="WarpDSL">
-              <ownedComment xmi:id="_PrBXIDXLEeyzKPzbxOg4Ww">
+              <ownedComment xmi:id="_1fpr8jd2EeykP74baAFnvg">
                 <body>@author sgoddard&#xD;
  *</body>
               </ownedComment>
@@ -11374,7 +11396,7 @@ used to measure the graphs efficiency.&#xD;
 		</body>
                 </ownedBehavior>
                 <ownedOperation xmi:id="_LnlKwSuiEeyJjNOKZ7e9aA" name="getCoordinator" method="_LzL91yuiEeyJjNOKZ7e9aA">
-                  <ownedComment xmi:id="_PrBXITXLEeyzKPzbxOg4Ww">
+                  <ownedComment xmi:id="_1fpr8zd2EeykP74baAFnvg">
                     <body>@return the coordinator</body>
                   </ownedComment>
                   <ownedParameter xmi:id="_LnlKwiuiEeyJjNOKZ7e9aA" direction="return">
@@ -11382,7 +11404,7 @@ used to measure the graphs efficiency.&#xD;
                   </ownedParameter>
                 </ownedOperation>
                 <ownedOperation xmi:id="_Lnlx0CuiEeyJjNOKZ7e9aA" name="setCoordinator" method="_LzL92SuiEeyJjNOKZ7e9aA">
-                  <ownedComment xmi:id="_PrBXIjXLEeyzKPzbxOg4Ww">
+                  <ownedComment xmi:id="_1fpr9Dd2EeykP74baAFnvg">
                     <body>@param coordinator the coordinator to set</body>
                   </ownedComment>
                   <ownedParameter xmi:id="_Lnlx0SuiEeyJjNOKZ7e9aA" name="coordinator">
@@ -12840,7 +12862,7 @@ used to measure the graphs efficiency.&#xD;
               </ownedOperation>
               <ownedOperation xmi:id="_Ln4sySuiEeyJjNOKZ7e9aA" name="setDefaultParameters" visibility="private" method="_LzPoQyuiEeyJjNOKZ7e9aA"/>
               <ownedOperation xmi:id="_Ln5T0CuiEeyJjNOKZ7e9aA" name="getAllEndTimes" method="_LzPoRCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwETXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpr-Td2EeykP74baAFnvg">
                   <body>@return the endTimes queue</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_LwvGxiuiEeyJjNOKZ7e9aA" type="_LmiB4SuiEeyJjNOKZ7e9aA" direction="return"/>
@@ -12857,7 +12879,7 @@ used to measure the graphs efficiency.&#xD;
               </ownedOperation>
               <ownedOperation xmi:id="_Ln564iuiEeyJjNOKZ7e9aA" name="pollEndTimes" method="_LzQPRCuiEeyJjNOKZ7e9aA"/>
               <ownedOperation xmi:id="_Ln564yuiEeyJjNOKZ7e9aA" name="getName" method="_LzQPRyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwEjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpr-jd2EeykP74baAFnvg">
                   <body>@return the name</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln565CuiEeyJjNOKZ7e9aA" direction="return">
@@ -12865,7 +12887,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln565SuiEeyJjNOKZ7e9aA" name="setName" method="_LzQPSSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwEzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTADd2EeykP74baAFnvg">
                   <body>@param name the name to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln565iuiEeyJjNOKZ7e9aA" name="name">
@@ -12873,7 +12895,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln6h8CuiEeyJjNOKZ7e9aA" name="getReleaseTime" method="_LzQPSyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwFDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTATd2EeykP74baAFnvg">
                   <body>@return the releaseTime</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln6h8SuiEeyJjNOKZ7e9aA" direction="return">
@@ -12881,7 +12903,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln6h8iuiEeyJjNOKZ7e9aA" name="getPhase" method="_LzQPTSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwFTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTAjd2EeykP74baAFnvg">
                   <body>@return the phase</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln6h8yuiEeyJjNOKZ7e9aA" direction="return">
@@ -12889,7 +12911,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln6h9CuiEeyJjNOKZ7e9aA" name="getStartTime" method="_LzQPTyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwFjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTAzd2EeykP74baAFnvg">
                   <body>@return the startTime</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln6h9SuiEeyJjNOKZ7e9aA" direction="return">
@@ -12897,7 +12919,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7JACuiEeyJjNOKZ7e9aA" name="setEndTime" method="_LzQPUSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwFzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTBDd2EeykP74baAFnvg">
                   <body>@param endTime the endTime to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7JASuiEeyJjNOKZ7e9aA" name="endTime">
@@ -12905,7 +12927,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7JAiuiEeyJjNOKZ7e9aA" name="setStartTime" method="_LzQPUyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwGDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTBTd2EeykP74baAFnvg">
                   <body>@param startTime the startTime to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7JAyuiEeyJjNOKZ7e9aA" name="startTime">
@@ -12913,7 +12935,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7JBCuiEeyJjNOKZ7e9aA" name="setReleaseTime" method="_LzQPVSuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwGTXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTBjd2EeykP74baAFnvg">
                   <body>@param releaseTime the releaseTime to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7wECuiEeyJjNOKZ7e9aA" name="releaseTime">
@@ -12921,7 +12943,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7wESuiEeyJjNOKZ7e9aA" name="setPeriod" method="_LzQPVyuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwGjXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTBzd2EeykP74baAFnvg">
                   <body>@param period the period to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7wEiuiEeyJjNOKZ7e9aA" name="period">
@@ -12929,7 +12951,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7wEyuiEeyJjNOKZ7e9aA" name="setPhase" method="_LzQ2UCuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwGzXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTCDd2EeykP74baAFnvg">
                   <body>@param phase the phase to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7wFCuiEeyJjNOKZ7e9aA" name="phase">
@@ -12937,7 +12959,7 @@ used to measure the graphs efficiency.&#xD;
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_Ln7wFSuiEeyJjNOKZ7e9aA" name="setNextReleaseTime" method="_LzQ2UiuiEeyJjNOKZ7e9aA">
-                <ownedComment xmi:id="_PrAwHDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fqTCTd2EeykP74baAFnvg">
                   <body>@param releaseTime the releaseTime to set</body>
                 </ownedComment>
                 <ownedParameter xmi:id="_Ln7wFiuiEeyJjNOKZ7e9aA" name="currentTime">
@@ -12976,7 +12998,7 @@ used to measure the graphs efficiency.&#xD;
                 <eAnnotations xmi:id="_LwvGwyuiEeyJjNOKZ7e9aA" source="http://www.eclipse.org/uml2/2.0.0/UML">
                   <details xmi:id="_LwvGxCuiEeyJjNOKZ7e9aA" key="create"/>
                 </eAnnotations>
-                <ownedComment xmi:id="_PrAwEDXLEeyzKPzbxOg4Ww">
+                <ownedComment xmi:id="_1fpr-Dd2EeykP74baAFnvg">
                   <body>Constructor that creates a copy of schedulable &#xD;
 	 * parameters of the input obj, but setting its&#xD;
 	 * lastUpdateTime to input time.&#xD;
@@ -13607,7 +13629,7 @@ used to measure the graphs efficiency.&#xD;
   <UMLLabProfile:Array xmi:id="_LnS24yuiEeyJjNOKZ7e9aA" dimensions="1" base_Element="_LnS24SuiEeyJjNOKZ7e9aA"/>
   <UMLLabProfile:Array xmi:id="_LncA0yuiEeyJjNOKZ7e9aA" base_Element="_LncA0CuiEeyJjNOKZ7e9aA"/>
   <UMLLabProfile:Array xmi:id="_Lncn4CuiEeyJjNOKZ7e9aA" base_Element="_LncA1iuiEeyJjNOKZ7e9aA"/>
-  <UMLLabProfile:Array xmi:id="_Lncn6CuiEeyJjNOKZ7e9aA" dimensions="1" base_Element="_Lncn5CuiEeyJjNOKZ7e9aA"/>
+  <UMLLabProfile:Array xmi:id="_Lncn6CuiEeyJjNOKZ7e9aA" dimensions="0" base_Element="_Lncn5CuiEeyJjNOKZ7e9aA"/>
   <UMLLabProfile:Array xmi:id="_LndO-CuiEeyJjNOKZ7e9aA" base_Element="_LndO9CuiEeyJjNOKZ7e9aA"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_LniHdSuiEeyJjNOKZ7e9aA" base_Element="_LniHdCuiEeyJjNOKZ7e9aA"/>
   <UMLLabProfile:Annotations xmi:id="_LniHdiuiEeyJjNOKZ7e9aA" base_Element="_LniHdCuiEeyJjNOKZ7e9aA">
