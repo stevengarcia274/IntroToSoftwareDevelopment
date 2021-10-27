@@ -58,7 +58,13 @@ public class ReliabilityAnalysis {
    public ReliabilityAnalysis (Program program) {
 	      // TODO Auto-generated constructor stub
 	   }
-   
+   /**
+    * This public constructor is when the constructor call has both a specific
+    * e2e and a specific minimum packet reception rate and does not take in 
+    * numfaults
+    * @param e2e
+    * @param minPacketReceptionRate
+    */
    public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
 	      // TODO implement this operation
 		  this.e2e = e2e;
@@ -67,7 +73,12 @@ public class ReliabilityAnalysis {
 		  
 	      //throw new UnsupportedOperationException("not implemented");
 	   }
-	   
+   /**
+    * This public constructor is for when the constructor call only gives
+    * an integer representing the numFaults and uses the default e2e and
+    * default minimum packet reception rate
+    * @param numFaults
+    */
    public ReliabilityAnalysis (Integer numFaults) {
 	      // TODO implement this operation
 		  this.numFaults = numFaults; 
