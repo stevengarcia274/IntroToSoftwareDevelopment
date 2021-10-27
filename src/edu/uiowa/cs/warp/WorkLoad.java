@@ -3,12 +3,10 @@ package edu.uiowa.cs.warp;
 import edu.uiowa.cs.utilities.Utilities;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-import java.util.Vector;
 import java.util.stream.Collectors;
 
 /**
@@ -544,7 +542,7 @@ public class WorkLoad extends WorkLoadDescription implements ReliabilityParamete
 	    }
 	  }
 
-	  private void finalizeFlowWithFixedFaultTolerance(String flowName) {
+  private void finalizeFlowWithFixedFaultTolerance(String flowName) {
 	    var flowNode = flows.get(flowName);
 	    if (flowNode != null) {
 	      /* set numTxPerLink based on M, E2E, and flow length */

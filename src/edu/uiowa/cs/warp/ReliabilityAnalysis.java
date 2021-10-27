@@ -1,9 +1,6 @@
 package edu.uiowa.cs.warp;
 
 import java.util.ArrayList;
-//import java.util.Arrays;
-import java.util.Collections;
-//import java.util.Vector;
 
 /**
  * ReliabilityAnalysis analyzes the end-to-end reliability
@@ -52,9 +49,13 @@ public class ReliabilityAnalysis {
    private double minPacketReceptionRate;
    private Integer numFaults;
    private static boolean whichResult;//if true return nTxPerLink
-   					   //if false return getFixedTxPerLink
+   					   				//if false return getFixedTxPerLink
    
-	
+   
+   /** 
+    * Creates an object ReliabilityAnalysis with the specified information
+    * @param program
+    */
    public ReliabilityAnalysis (Program program) {
 	      // TODO Auto-generated constructor stub
 	   }
@@ -66,12 +67,11 @@ public class ReliabilityAnalysis {
     * @param minPacketReceptionRate
     */
    public ReliabilityAnalysis (Double e2e, Double minPacketReceptionRate) {
-	      // TODO implement this operation
 		  this.e2e = e2e;
 		  this.minPacketReceptionRate = minPacketReceptionRate;
 		  whichResult = true;
 		  
-	      //throw new UnsupportedOperationException("not implemented");
+	      
 	   }
    /**
     * This public constructor is for when the constructor call only gives
@@ -80,13 +80,11 @@ public class ReliabilityAnalysis {
     * @param numFaults
     */
    public ReliabilityAnalysis (Integer numFaults) {
-	      // TODO implement this operation
 		  this.numFaults = numFaults; 
 		  this.e2e = DEFAULT_E2E;
 		  this.minPacketReceptionRate = DEFAULT_MIN_PACKET_RECEPTION_RATE;
 		  whichResult = false;
 		  
-	      //throw new UnsupportedOperationException("not implemented");
 	   }
 
    /**
@@ -122,15 +120,13 @@ public class ReliabilityAnalysis {
 	    	var nodesInFlow = flow.nodes;
 	        var nNodesInFlow = nodesInFlow.size(); // The last entry will contain the worst-case cost of
 	                                               // transmitting E2E in isolation
-	        // var nPushes = Array(repeating: 0, count: nNodesInFlow+1);
 	        var nPushes = new ArrayList<Integer>(nNodesInFlow + 1);//OUR CODE
-	        //var nPushes = new Integer[nNodesInFlow + 1];  // Array to track nPushes for each node in this
+	          											// Array to track nPushes for each node in this
 	                                                     // flow (same as nTx per link)
-	        //Collections.fill(nPushes, 0);//OUR CODE 
+	        
 	        for(int i = 0; i < nNodesInFlow+1; i++) {
 	        	nPushes.add(0);
-	        }
-	        //Arrays.fill(nPushes, 0); // initialize to all 0 values
+	        } // initialize to all 0 values
 	        var nHops = nNodesInFlow - 1;
 	        // minLinkReliablityNeded is the minimum reliability needed per link in a flow to hit E2E
 	        // reliability for the flow
@@ -155,17 +151,15 @@ public class ReliabilityAnalysis {
 	          newReliabilityRow.add(0.0); // create the the row initialized with 0.0 values
 	        }
 	        reliabilityWindow.add(newReliabilityRow); // now add row to the reliability window, Time 0
-	        ReliabilityRow tmpVector = reliabilityWindow.get(0);
-	        //var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);
+	        ReliabilityRow tmpVector = reliabilityWindow.get(0);;
 	        ReliabilityRow currentReliabilityRowArrayList = new ReliabilityRow();
-	        //Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);
 	        currentReliabilityRowArrayList.addAll(tmpVector);
 	        // Want reliabilityWindow[0][0] = 1.0 (i.e., P(packet@FlowSrc) = 1
 	        // So, we initialize this first entry to 1.0, wich is reliabilityWindow[0][0]
 	        // We will then update this row with computed values for each node and put it
 	        // back in the matrix
 	        currentReliabilityRowArrayList.set(0, 1.0);
-	        //currentReliabilityRow[0] = 1.0; // initialize (i.e., P(packet@FlowSrc) = 1
+	        // initialize (i.e., P(packet@FlowSrc) = 1
 	        Double e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1); // the analysis will end
 	                                                                              // when the 2e2
 	                                                                              // reliability matrix is
@@ -178,13 +172,9 @@ public class ReliabilityAnalysis {
 	                                            // we don't know how long this schedule window will last
 	          ReliabilityRow prevReliabilityRow = new ReliabilityRow();
 	          prevReliabilityRow.clear();
-	          prevReliabilityRow.addAll(currentReliabilityRowArrayList);
-	          //Collections.addAll(prevReliabilityRow, currentReliabilityRowArrayList);
-	          //= currentReliabilityRowArrayList;
-	          //currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
-	          currentReliabilityRowArrayList.clear();
-	          //Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);               // be
-	          currentReliabilityRowArrayList.addAll(newReliabilityRow);                                                                                         // reliabilityWindow[timeSlot]
+	          prevReliabilityRow.addAll(currentReliabilityRowArrayList); 							// would
+	          currentReliabilityRowArrayList.clear();            									 // be
+	          currentReliabilityRowArrayList.addAll(newReliabilityRow);                               // reliabilityWindow[timeSlot]
 	                                                                                                   // if
 	                                                                                                   // working
 	                                                                                                   // through
@@ -220,8 +210,8 @@ public class ReliabilityAnalysis {
 	                                                                                      // continue
 	                                                                                      // attempting to
 	                                                                                      // Tx, so update
-	              nPushes.set(nodeIndex, nPushes.get(nodeIndex) + 1); // our CODE                                                                     // current state
-	              //nPushes[nodeIndex] += 1; // increment the number of pushes for for this node to snk node
+	              nPushes.set(nodeIndex, nPushes.get(nodeIndex) + 1); // our CODE         // current state
+	               // increment the number of pushes for for this node to snk node
 	            } else {
 	              nextSnkState = prevSnkNodeState; // snkNode has met its reliability. Thus move on to the
 	                                               // next node and record the reliability met
@@ -241,7 +231,7 @@ public class ReliabilityAnalysis {
 	                                                                                                  // old
 	                                                                                                  // value
 	              currentReliabilityRowArrayList.set(flowSrcNodeindex, prevReliabilityRow.get(flowSrcNodeindex));                                                                                    // forward
-	              //currentReliabilityRow[flowSrcNodeindex] = prevReliabilityRow[flowSrcNodeindex]; // carry
+	              																					// carry
 	                                                                                              // forward
 	                                                                                              // the
 	                                                                                              // previous
@@ -260,8 +250,7 @@ public class ReliabilityAnalysis {
 	                                                                                              // in this
 	                                                                                              // slot
 	            }
-	            currentReliabilityRowArrayList.set(flowSnkNodeindex, nextSnkState);
-	            //currentReliabilityRow[flowSnkNodeindex] = nextSnkState;
+	            currentReliabilityRowArrayList.set(flowSnkNodeindex, nextSnkState);;
 	          }
 
 	          e2eReliabilityState = currentReliabilityRowArrayList.get(nNodesInFlow - 1);
@@ -270,7 +259,6 @@ public class ReliabilityAnalysis {
 	          
 	          //REMINDER THIS IS WHERE WE LEFT OFF need to change the .addAll
 	          currentReliabilityVector = currentReliabilityRowArrayList;
-	          //Collections.addAll(currentReliabilityVector, currentReliabilityRowArrayList);
 	          
 	          if (timeSlot < reliabilityWindow.size()) {
 	            reliabilityWindow.set(timeSlot, (currentReliabilityVector));
@@ -281,12 +269,10 @@ public class ReliabilityAnalysis {
 	        }
 	        var size = reliabilityWindow.size();
 	        nPushes.set(nNodesInFlow, size);
-	        //nPushes[nNodesInFlow] = size; // The total (worst-case) cost to transmit E2E in isolation with
+	        							// The total (worst-case) cost to transmit E2E in isolation with
 	                                      // specified reliability target is the number of rows in the
 	                                      // reliabilityWindow
 	        // Now convert the array to the ArrayList needed to return
-	        //ArrayList<Integer> nPushesArrayList = new ArrayList<Integer>();
-	        //Collections.addAll(nPushesArrayList, nPushes);
 	        return nPushes; 	
 	    	
 	    }else{//END OF IF
