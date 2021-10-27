@@ -156,9 +156,10 @@ public class ReliabilityAnalysis {
 	        }
 	        reliabilityWindow.add(newReliabilityRow); // now add row to the reliability window, Time 0
 	        ReliabilityRow tmpVector = reliabilityWindow.get(0);
-	        var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);
+	        //var currentReliabilityRow = tmpVector.toArray(new Double[tmpVector.size()]);
 	        ReliabilityRow currentReliabilityRowArrayList = new ReliabilityRow();
-	        Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);
+	        //Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);
+	        currentReliabilityRowArrayList.addAll(tmpVector);
 	        // Want reliabilityWindow[0][0] = 1.0 (i.e., P(packet@FlowSrc) = 1
 	        // So, we initialize this first entry to 1.0, wich is reliabilityWindow[0][0]
 	        // We will then update this row with computed values for each node and put it
@@ -180,10 +181,10 @@ public class ReliabilityAnalysis {
 	          prevReliabilityRow.addAll(currentReliabilityRowArrayList);
 	          //Collections.addAll(prevReliabilityRow, currentReliabilityRowArrayList);
 	          //= currentReliabilityRowArrayList;
-	          currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
+	          //currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
 	          currentReliabilityRowArrayList.clear();
-	          Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);                                                                                        // be
-	                                                                                                   // reliabilityWindow[timeSlot]
+	          //Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);               // be
+	          currentReliabilityRowArrayList.addAll(newReliabilityRow);                                                                                         // reliabilityWindow[timeSlot]
 	                                                                                                   // if
 	                                                                                                   // working
 	                                                                                                   // through
