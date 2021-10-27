@@ -126,7 +126,10 @@ public class ReliabilityAnalysis {
 	        var nPushes = new ArrayList<Integer>(nNodesInFlow + 1);//OUR CODE
 	        //var nPushes = new Integer[nNodesInFlow + 1];  // Array to track nPushes for each node in this
 	                                                     // flow (same as nTx per link)
-	        Collections.fill(nPushes, 0);//OUR CODE 
+	        //Collections.fill(nPushes, 0);//OUR CODE 
+	        for(int i = 0; i < nNodesInFlow+1; i++) {
+	        	nPushes.add(0);
+	        }
 	        //Arrays.fill(nPushes, 0); // initialize to all 0 values
 	        var nHops = nNodesInFlow - 1;
 	        // minLinkReliablityNeded is the minimum reliability needed per link in a flow to hit E2E
@@ -172,7 +175,11 @@ public class ReliabilityAnalysis {
 	        var timeSlot = 0; // start time at 0
 	        while (e2eReliabilityState < e2e) { // change to while and increment increment timeSlot because
 	                                            // we don't know how long this schedule window will last
-	          var prevReliabilityRow = currentReliabilityRowArrayList;
+	          ReliabilityRow prevReliabilityRow = new ReliabilityRow();
+	          prevReliabilityRow.clear();
+	          prevReliabilityRow.addAll(currentReliabilityRowArrayList);
+	          //Collections.addAll(prevReliabilityRow, currentReliabilityRowArrayList);
+	          //= currentReliabilityRowArrayList;
 	          currentReliabilityRow = newReliabilityRow.toArray(new Double[newReliabilityRow.size()]); // would
 	          currentReliabilityRowArrayList.clear();
 	          Collections.addAll(currentReliabilityRowArrayList, currentReliabilityRow);                                                                                        // be
