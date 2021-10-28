@@ -13,4 +13,7 @@ that certain flags might require arguments.
 Student Edit (10/13/21): Generated some UML diagrams for Reliability*.java, WorkLoad.java, and SchedulableObject.java files. I also added a public method, 
 with return type ReliabilityTable, to ReliabilityAnalysis.java through its class box diagram. 
 
+Student Edit (10/27/21): Refactored nTxPerLinkAndTotalTxCost and getFixedTxPerLinkAndTotalTxCost methods into ReliabilityAnalysis.java. ReliabilityAnalysis
+constructors were also made, JavaDocs generated, and UML diagrams updated. 
+
 <br>
