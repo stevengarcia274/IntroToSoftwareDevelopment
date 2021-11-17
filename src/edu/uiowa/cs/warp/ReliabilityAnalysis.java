@@ -50,6 +50,7 @@ public class ReliabilityAnalysis {
    private Integer numFaults;
    private static boolean whichResult;//if true return nTxPerLink
    					   				//if false return getFixedTxPerLink
+   private Program program;
    
    
    /** 
@@ -58,7 +59,9 @@ public class ReliabilityAnalysis {
     */
    public ReliabilityAnalysis (Program program) {
 	      // TODO Auto-generated constructor stub
-	   }
+	   this.program = program;
+	   
+   }
    /**
     * This public constructor is when the constructor call has both a specific
     * e2e and a specific minimum packet reception rate and does not take in 
@@ -102,7 +105,14 @@ public class ReliabilityAnalysis {
     */
    public ReliabilityTable getReliabilities() {
       // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
+      //throw new UnsupportedOperationException("not implemented");
+      WorkLoad myWorkLoad = program.toWorkLoad();
+      var flowNames = myWorkLoad.getFlowNames();
+      
+      String hi = "hi";
+      
+      ReliabilityTable  myTab = new ReliabilityTable();
+      return myTab;
    }
    
    /**
