@@ -52,8 +52,20 @@ Some of the files we included/updated/added with this sprint are:<br>
 <br>
 
 Sprint 3 Summary:<br>
-*Final summary to be inserted here* <br>
+For our final sprint, I think we can confidently say that we have completed the project. In Sprint3 our main focus was to build an
+accurate reliabilityTable, coming into it we had a working file visualization implementation, so we just had to figure out the table
+algorithms and how to build it correctly. While getReliabilities is the method that builds the resulting table, in order to produce 
+cleaner code we created a number of helper functions that should be seen from both the .java file and our updated UML diagrams. Another
+important function implemented was verifyReliabilties. The verifyReliabilities function makes sure the table created meets the given E2E criteria. Additional 
+deliverables for this sprint include our javaDOC files, updated UML diagrams, and a .java file that houses all our tests. The way that
+we approached testing was by taking a number of the graph .txt files we were given and testing the following for each (tested cases that did and didn't have numFaults):<br>
+ -if the file header was created successfully <br>
+ -the accuracy of our reliabilityTable<br>
+ -whether our verifyReliabilities function returned the expected boolean values<br>
 <br>
-- updated UML Diagram to include updated components of ReliabilityAnalysis
-and ReliabilityVisualization<br>
--added javadoc comments to functions in ReliabilityAnalysis<br>
+Some of the files we included/updated with this sprint are:<br>
+-ReliabilityVisualization.java<br>
+-ReliabilityAnalysis.java<br>
+-ReliabilityTests.java<br>
+-newly generated JavaDocs<br>
+-updated UML Diagrams that include updated components of ReliabilityAnalysis and ReliabilityVisualization
