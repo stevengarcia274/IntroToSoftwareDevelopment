@@ -1,6 +1,8 @@
 package edu.uiowa.cs.warp;
 
 import java.util.ArrayList;
+import java.util.*;
+import edu.uiowa.cs.warp.WarpDSL.InstructionParameters;
 
 /**
  * ReliabilityAnalysis analyzes the end-to-end reliability
@@ -48,10 +50,11 @@ public class ReliabilityAnalysis {
    private double e2e;
    private double minPacketReceptionRate;
    private Integer numFaults;
+   private ReliabilityTable raTable = new ReliabilityTable();//table for verifyReliabilities
    private static boolean whichResult;//if true return nTxPerLink
    					   				//if false return getFixedTxPerLink
-   private Program program;
    
+   private Program program;
    
    /** 
     * Creates an object ReliabilityAnalysis with the specified information
@@ -59,9 +62,14 @@ public class ReliabilityAnalysis {
     */
    public ReliabilityAnalysis (Program program) {
 	      // TODO Auto-generated constructor stub
-	   this.program = program;
 	   
-   }
+	   this.program = program;
+	   this.e2e = program.getE2e();
+	   this.minPacketReceptionRate = program.getMinPacketReceptionRate();
+	   this.numFaults = program.getNumFaults();
+	   
+	}
+   
    /**
     * This public constructor is when the constructor call has both a specific
     * e2e and a specific minimum packet reception rate and does not take in 
@@ -76,6 +84,7 @@ public class ReliabilityAnalysis {
 		  
 	      
 	   }
+   
    /**
     * This public constructor is for when the constructor call only gives
     * an integer representing the numFaults and uses the default e2e and
@@ -88,31 +97,350 @@ public class ReliabilityAnalysis {
 		  this.minPacketReceptionRate = DEFAULT_MIN_PACKET_RECEPTION_RATE;
 		  whichResult = false;
 		  
-	   }
+   }
 
    /**
-    * 
+    * Helper function that's intended purpose is to 
+    * check the values at the end of an ra table and insure
+    * that they meet the minimum e2e reliability value
     * @return Boolean
     */
    public Boolean verifyReliabilities() {
-      // TODO Auto-generated method stub
-           return false;
-       }
+	  ReliabilityTable verifyTable = this.raTable;
+	  ReliabilityRow lastRow = new ReliabilityRow();
+	  int nColumn = verifyTable.getNumColumns();
+	   for(int i = 0; i < nColumn;i++) {
+		   lastRow.add(verifyTable.get(verifyTable.size()-1, i));
+	   }
+	   for(int i = 0; i < lastRow.size(); i++) {
+		   if(lastRow.get(i) < e2e) {
+			   return false;
+		   }
+	   } 
+	   	return true;
+   }
    
    /**
-    * 
+    * Helper function that maps flows to columns as they
+    * appear in the flow.
+    * @param enterWorkLoad
+    * @return
+    */
+   private Map<String, Integer> mapOfFlows(WorkLoad enterWorkLoad){
+	   //helper function that maps the flow:node to it's column in our table
+	   //this will come in handy when we want to update values
+	   
+	   Map<String, Integer> reliabilityMap = new HashMap<String, Integer>();
+	   String flowString;
+	   Integer numColums = 0;
+	   var flowNames = enterWorkLoad.getFlowNamesInPriorityOrder();
+	   
+	   for(int i = 0; i < flowNames.size(); i++) {
+		   var nodesIn = enterWorkLoad.getNodesInFlow(flowNames.get(i));
+		   for(int t = 0; t < nodesIn.length; t++) {
+			   flowString = "";
+			   flowString += String.format("%s:%s", flowNames.get(i), nodesIn[t]);
+			   //System.out.println(flowString + " " + numColums);
+			   reliabilityMap.put(flowString, numColums);
+			   numColums++;
+		   }
+				
+	   }
+	   //Map<String, Integer> reliabilityMap = new HashMap<String, Integer>();
+	   return reliabilityMap; 
+   }
+   
+   /**
+    * Helper function that maps the flow:node to it's column in our table
+	* which will be used when we want to update values
+    * @param enterWorkLoad
+    * @return reliabilityMap
+    */
+   private Map<String, Integer[]> flowStartAndEnds(WorkLoad enterWorkLoad){
+	   //helper function that maps the flow's start and end nodes to it's column in our ra table
+	   
+	   Map<String, Integer[]> reliabilityMap = new HashMap<String, Integer[]>();
+	   String flowString;
+	   Integer numColums = 0;
+	   int START_AND_END = 2;
+	   int START = 0;
+	   int END = 1;
+	   var flowNames = enterWorkLoad.getFlowNamesInPriorityOrder();
+	   
+	   for(int i = 0; i < flowNames.size(); i++) {
+		   var nodesIn = enterWorkLoad.getNodesInFlow(flowNames.get(i));
+		   flowString = "";
+		   flowString += String.format("%s", flowNames.get(i));
+		   
+		   Integer[] places = new Integer[START_AND_END];
+		   places[START] = numColums;
+		   
+		   //keeps track of how many flows each node has
+		   for(int t = 0; t < nodesIn.length; t++) {
+			   numColums++;
+		   }
+		   places[END] = numColums;
+		   reliabilityMap.put(flowString, places);
+				
+	   }
+	   //Map<String, Integer> reliabilityMap = new HashMap<String, Integer>();
+	   return reliabilityMap; 
+   }
+   
+   /**
+    * Helper function that finds flows to be reset.
+    * @param i
+    * @param enterWorkLoad
+    * @return resetFlows
+    */
+   private ArrayList<String> additionalFlowsToReset(int i, WorkLoad enterWorkLoad){
+	   ArrayList<String> resetFlows = new ArrayList<String>();//ArrayList that will hold other flows that need
+	   														  //to be reset
+	   
+	   var flowNames = enterWorkLoad.getFlowNamesInPriorityOrder();
+	   String checkFlow;//current flow of each iteration
+	   
+	   for(int t = 0; t < flowNames.size(); t++) {
+		   checkFlow = flowNames.get(t);
+		   /*
+		   if(checkFlow.equals(curFlow)) {
+			   System.out.println("curFlow skipped");
+			   continue;
+		   }*/
+		   //find if checkFlow is a flow that needs to be reset
+		   Integer curPeriod = enterWorkLoad.getFlowPeriod(checkFlow);
+		   Integer curPhase = enterWorkLoad.getFlowPhase(checkFlow);
+		   if((i % curPeriod) == curPhase) {
+			   resetFlows.add(checkFlow);//add to our list
+		   }   
+		   
+	   }
+	   
+	   
+	   return resetFlows;
+   }
+   
+   /**
+    * Helper function that generates to first row of a ra table.
+    * @param enterWorkLoad
+    * @return returnNewSnk
+    */
+   private ReliabilityRow initialRow(WorkLoad enterWorkLoad){
+	   var flowNames = enterWorkLoad.getFlowNamesInPriorityOrder();
+	   ReliabilityRow intRow = new ReliabilityRow();
+	   int size = 0;
+	   double SNK_NODE = 1.0;
+	   double INTIAL_VALUE = 0.0;
+	   
+	   
+	   for(int i = 0; i < flowNames.size(); i++) {
+		   var nodesIn = enterWorkLoad.getNodesInFlow(flowNames.get(i));
+		   for(int t = 0; t < nodesIn.length; t++) {
+			   //flowString += String.format("%s:%s\t", flowNames[i], nodesIn[t]);
+			   if(t == 0) {
+				   intRow.add(size, SNK_NODE);
+				   
+			   }else{
+				   intRow.add(size, INTIAL_VALUE);
+			   }
+			   size++;
+		   }
+				
+	   }
+	   
+	   return intRow;
+   }
+   
+   /**
+    * Helper function that updates the state of sink nodes.
+    * @param PrevSnkNodeState
+    * @param PrevSrcNodeState
+    * @return returnNewSnk
+    */
+   private Double calcNewSnkNodeState(Double PrevSnkNodeState, Double PrevSrcNodeState) {
+	   Double returnNewSnk = (1 - minPacketReceptionRate) * PrevSnkNodeState 
+			   + minPacketReceptionRate * PrevSrcNodeState; 
+	   
+	   
+	   return returnNewSnk;
+   }
+   
+   /**
+    * This function generates a ra table and populates it with
+    * the calculated values.
     * @return ReliabilityTable
     */
    public ReliabilityTable getReliabilities() {
-      // TODO implement this operation
-      //throw new UnsupportedOperationException("not implemented");
       WorkLoad myWorkLoad = program.toWorkLoad();
-      var flowNames = myWorkLoad.getFlowNames();
+      ProgramSchedule proSched = program.getSchedule(); //programSchedule Table
+      Map<String, Integer> meMap = mapOfFlows(myWorkLoad); //Map of Flow:Node and corresponding Column
+      Map<String, Integer[]> locMap = flowStartAndEnds(myWorkLoad);
+      //create initial ReliabilityTable 
+      ReliabilityTable  finalReliabilityTable = new ReliabilityTable();
+      ReliabilityRow initialSetRow = initialRow(myWorkLoad); //initialRow
+      ReliabilityRow prevRow = new ReliabilityRow();
+      WarpDSL dsl = new WarpDSL();
+      //ArrayList that will hold instructions found in each cell
+      ArrayList<InstructionParameters> instrucList = new ArrayList<InstructionParameters>();
+      String instruction;//raw instruction from program schedule table 
+      int PREVIOUS = 1;
+      double RESET = 0.0;
+      int START = 0;
+      int END = 1;
+      boolean needReset;
       
-      String hi = "hi";
+      int nTimeSlots = proSched.size();
+      int nColumns = meMap.size();
+      int nColumnsSched = proSched.get(0).size();
       
-      ReliabilityTable  myTab = new ReliabilityTable();
-      return myTab;
+      
+      //add the empty row to our table the same amount of time as there are rows
+      //in the schedule
+      ReliabilityRow insertRow = new ReliabilityRow();
+      
+      for (int rowIndex = 0; rowIndex < nTimeSlots; rowIndex++) {
+    	  
+    	  //finalReliabilityTable.add(initialSetRow);
+    	  finalReliabilityTable.add(insertRow);
+    	  
+      }
+   
+      
+      //ReliabilityRow insertRow = new ReliabilityRow(); //this row keeps the updated values
+      for (int z = 0; z < nColumns; z++) {
+    	  insertRow.add(initialSetRow.get(z));
+	  }
+      
+      //parse through ProgramSchedule Table
+      for(int i = 0; i < nTimeSlots; i++) {//iterate through each row in schedule table
+    	  ArrayList<String> resetNodesVisited = new ArrayList<String>();
+    	  int nonCount = 0;
+    	  
+    	  for(int j = 0; j < nColumnsSched; j++) {//iterate through each cell in the row
+    		  instruction = proSched.get(i, j);//get the instruction string from cell
+    		  instrucList = dsl.getInstructionParameters(instruction);
+    		  
+    		  
+    		  
+    		  //for(InstructionParameters entry : instrucList) {
+    		  for(int x = 0; x < instrucList.size(); x++) {
+    			  
+    			  InstructionParameters curIn = instrucList.get(x);
+    			  String curName = curIn.getName();//can be push, pull, wait, sleep
+    			  
+    			  
+    			  if(curName.equals("push") || curName.equals("pull") ) {
+    				  //System.out.println(instrucList.get(x).getFlow());
+        			  String curFlow = curIn.getFlow();
+        			  String curSnk = curIn.getSnk();
+        			  String curSrc = curIn.getSrc();
+        			  Integer curPeriod = myWorkLoad.getFlowPeriod(curFlow);
+        			  Integer curPhase = myWorkLoad.getFlowPhase(curFlow);
+    				  
+        			  
+        			  //System.out.println(instrucList.get(x).getName());
+    				  //figure out prevRow
+    				  if(i == 0 || (i % curPeriod) == curPhase) {
+    					  prevRow = initialSetRow;
+    					  //System.out.println("CONDITION MET AT " + i);
+    					  //System.out.println(initialSetRow.toString());
+    					  needReset = true;
+    				  }else{
+    					  prevRow = finalReliabilityTable.get(i - PREVIOUS);  
+    					  needReset = false;
+    				  }
+    				  //System.out.println("i: " + i + " prevRow" + prevRow);
+    				  //figure out src and snk node coordinates
+    				  String snkKey = String.format("%s:%s", curFlow, curSnk);
+    				  String srcKey = String.format("%s:%s", curFlow, curSrc);
+    				  
+    				  Integer snkColumn = meMap.get(snkKey);//get snkColumn from map
+    				  Integer srcColumn = meMap.get(srcKey);//get srcColumn from map
+    				  
+    				  Double PrevSnkNodeState = prevRow.get(snkColumn);//values of snkNode from prev timeSlot
+    				  Double PrevSrcNodeState = prevRow.get(srcColumn);//values of srcNode from prev timeSlot
+    				  
+    				  //cell calculations
+    				  Double NewSnkNodeState = calcNewSnkNodeState(PrevSnkNodeState, PrevSrcNodeState);
+    				  
+    				  //finalReliabilityTable.set(i, snkColumn, NewSnkNodeState);
+    				  
+    				  if(needReset == true) {
+    					  //multiple flows may meet the reset criteria in a particular time slot
+    					  ArrayList<String> flowResets = additionalFlowsToReset(i, myWorkLoad);
+    					  for(int s = 0; s < flowResets.size(); s++) {
+    						  
+    						  String workFlow = flowResets.get(s);//current flow that needs to be reset
+    						  if(resetNodesVisited.contains(workFlow)) {
+    							  //keep track of flows that are reset in the same time slot
+    							  //so they are not updated and reset again
+    							  continue;
+    						  }
+    						  
+    						  Integer[] startAndEnd = locMap.get(workFlow);//column index of where flows begin and end
+    						  int start = startAndEnd[START] + 1;//we DO NOT want to update the src node of the flow
+    						  int end = startAndEnd[END];
+    						  while(start < end) {
+    							  insertRow.set(start, RESET);
+    							  start = start + 1;
+    						  }
+    						  
+    					  }
+    					  
+    					  resetNodesVisited.add(curFlow);
+    					  
+    					  
+    					  
+    				  }
+    				  
+    				  
+    				  
+    				  insertRow.set(snkColumn, NewSnkNodeState);
+    				  //need a newRow that resets each time otherwise table will 
+    				  //NOT progress correctly
+    				  ReliabilityRow newRow = new ReliabilityRow();
+    				  
+    				  //iterate through the updated row, insert values into fresh row
+    				  for (int z = 0; z < nColumns; z++) {
+    					  newRow.add(insertRow.get(z));
+    				  }
+    				  
+    				  
+    				  //add fresh row to table
+    				  finalReliabilityTable.set(i, newRow);
+    				  //System.out.println(meMap.get(srcKey));  
+    				  
+    			  }else {
+    				  //this checks if whole row of the program schedule is filled with sleep or wait instructions
+    				  nonCount = nonCount + 1;
+    			  }
+    			  	  
+    		  }
+    		 
+    		    
+    	  }
+    	  
+    	  if(nonCount == nColumnsSched) {
+    		  //System.out.println(nonCount);
+    		  
+    		  //if row is full of sleeps we need an independent row that won't be changed
+    		  ReliabilityRow nothingRow = new ReliabilityRow();
+			  
+			  //iterate through the updated row, insert values into fresh row
+			  for (int z = 0; z < nColumns; z++) {
+				  nothingRow.add(insertRow.get(z));
+			  }
+			  
+			  
+			  //add fresh row to table
+			  finalReliabilityTable.set(i, nothingRow);
+    		  
+    	  }
+      }
+      
+      this.raTable = finalReliabilityTable;
+      //return finalReliabilityTable;
+      return raTable;
    }
    
    /**

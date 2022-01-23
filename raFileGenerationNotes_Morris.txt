@@ -1,0 +1,37 @@
+Warp tester - driver - accepts .ra returns relability analysis file
+project - extend, dont modify
+output file (example.txt xls file) - in xl sheet, left is dsl, right is ra 
+collumns - programs that the comps in the flow execute, execute in lock step
+A executes -> B executes -> C executes
+A is coordinator
+graphs are 2 dim matrix full of strings, we have to read and find src and sink and coordinator, etc
+2 dimensional vector with doubles for entries - reliability table
+warp object is of type program
+ReliablityVisualization extends VisualizationObject, finish it
+ProgramVisualization is a good example
+Takes notes of sequence of calls and such, sequence diagram would be good
+
+Start at the end,
+understand what the ra file looks like and how read that source code
+Start at warptester and work backwards, what are examples of how other files like that are made
+Create artifacts that help understand and remember the design
+
+
+Sequence
+WarpTest is ran
+setWarpParameters(args) runs (WarpTester -> WarpTester)
+WorkLoad object contructed (WarpTester -> WorkLoad) (Actually nescessary to include?)
+visualize (Warp warp, SystemChoices choice) runs (WarpTester-> WarpTester)
+createProgramVisualistion(warp, outputSubDirectory, choice) runs (WarpTester -> VisualizationFactory)
+returns VisualizationImplementation(warp, outputDirectory, choice) (Visualization -> VisualizationImplementation)
+fileManager() constructed (VisualizationImplementation -> FileManager ->  VisualizationImplementation)
+warp.toWorkLoad().getInputFileName() (VisualizationImplementation -> WorkLoad -> VisualizationImplementation)
+fm.getBaseDirectory(),fm.createDirectory(workingDirectory, outputDirectory) (VisualizationImplementation -> FileManager -> VisualizationImplementation)
+finishes (VisualizationImplementation -> VisualizationFactory -> WarpTester)
+viz.toFile() (WarpTester -> returned file)
+
+
+
+
+
+ 
